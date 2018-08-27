@@ -1,0 +1,48 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:l="sap.ui.layout">
+	<Dialog title="Duplicate Records" contentWidth="720px" contentHeight="300px" class="sapUiSizeCompact">
+	<content>
+			<Table id="idDupliTable" noDataText="No Data" inset="false" growing="true" mode="SingleSelectLeft" selectionChange="ItemPress"
+			 items="{/results}" growingScrollToLoad="true">
+				<!--<headerToolbar>
+					<Toolbar>
+						<Title text="{i18n>PRODUCT_BASKET}"/>
+						<ToolbarSpacer id="productSpacer_S411"></ToolbarSpacer>
+						<Button id="ProductButton11" icon="sap-icon://add" enabled="false" press="addProductTableRow" tooltip="{i18n>ADD}"></Button>
+					</Toolbar>
+				</headerToolbar>-->
+				<columns>
+					<Column hAlign="Left">
+						<Text text="BpName"/>
+						
+					</Column>
+					<Column hAlign="Left">
+						<Text text="Partner"/>
+					</Column>
+					<Column hAlign="Left">
+						<Text text="Address"/>
+					</Column>
+					<Column hAlign="Left">
+						<Text text="Percentage Match"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem press="ItemPress"
+				detailPress="handleDetailPress">
+						<cells>
+							<Text text="{BpName}"/>
+							<Text text="{Businesspartner}"/>
+							<Text text="{AddrShort}"/>
+							<Text text="{Percentage}"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</content>
+		<beginButton>
+				<Button text="Cancel and Create new Record" id="CancelDup_id" press="DuplicateCancel"></Button>
+		</beginButton>
+		<endButton>
+			<Button text="Continue with Selected Record" id="ProceedDup_id" visible="false" press="DuplicateContinue"></Button>
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>

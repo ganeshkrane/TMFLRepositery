@@ -1,0 +1,32 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Priorities(LanguageCode='EN',PriorityCode='1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Priorities(LanguageCode='EN',PriorityCode='1')",
+				"type": "CRM_OPPORTUNITY.Priority"
+			},
+			"LanguageCode": "EN",
+			"PriorityCode": "1",
+			"PriorityText": "very important"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Priorities(LanguageCode='EN',PriorityCode='2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Priorities(LanguageCode='EN',PriorityCode='2')",
+				"type": "CRM_OPPORTUNITY.Priority"
+			},
+			"LanguageCode": "EN",
+			"PriorityCode": "2",
+			"PriorityText": "important"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Priorities(LanguageCode='EN',PriorityCode='3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Priorities(LanguageCode='EN',PriorityCode='3')",
+				"type": "CRM_OPPORTUNITY.Priority"
+			},
+			"LanguageCode": "EN",
+			"PriorityCode": "3",
+			"PriorityText": "low"
+		}]
+	}
+}

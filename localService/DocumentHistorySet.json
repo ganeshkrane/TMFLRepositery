@@ -1,0 +1,35 @@
+{
+	"d": {
+		"results": [{
+				"__metadata": {
+					"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/DocumentHistorySet(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')",
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/DocumentHistorySet(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')",
+					"type": "CRM_OPPORTUNITY.DocumentHistory"
+				},
+				"Guid": "3440B5B1-0CE4-1EE3-AEB1-8B7F4E92CC4F",
+				"TransactionId": "1751",
+				"Description": "test_1",
+				"TransactionType": "LEAD",
+				"TransTypeDesc": "Lead",
+				"CreatedOn": "\/Date(1396350088000)\/",
+				"ObjectType": "BUS2000108",
+				"Relationship": "Preceding document"
+			}, {
+				"__metadata": {
+					"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/DocumentHistorySet(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')",
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/DocumentHistorySet(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')",
+					"type": "CRM_OPPORTUNITY.DocumentHistory"
+				},
+				"Guid": "0090FA0D-8D72-1EE2-BC89-687761778579",
+				"TransactionId": "2773",
+				"Description": "Easy Hand 3",
+				"TransactionType": "OPPORTUNTY",
+				"TransTypeDesc": "Opportunity",
+				"CreatedOn": "\/Date(1397029835000)\/",
+				"ObjectType": "BUS2000108",
+				"Relationship": "Preceding document"
+			}
+
+		]
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/RequestedPartners('424467')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/RequestedPartners('424467')",
+				"type": "CRM_OPPORTUNITY.REQUESTEDPARTNER"
+			},
+			"PartnerNo": "424467",
+			"NameFirst": "BEN",
+			"NameLast": "LI",
+			"FullName": "BEN LI",
+			"ProcessType": "OPPT",
+			"PartnerFunction": "00000014",
+			"PartnerCategory": "0008",
+			"partnerFunctionName": "Employee Responsible",
+			"paramPrecedingDocumentID": "",
+			"paramPartnerNo": "",
+			"paramPartnerFunction": "",
+			"mainPartner": "X"
+		}]
+	}
+}

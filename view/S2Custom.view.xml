@@ -1,0 +1,40 @@
+<core:View xmlns:core="sap.ui.core" xmlns="sap.m" controllerName="cus.crm.opportunity.view.S2">
+	<Page id="page" title="{i18n>MASTER_TITLE}">
+		<!-- sorter : { path : 'ProspectName', descending : true, group : true} -->
+		<content>
+			<List id="list" selectionChange="_handleSelect" mode="{device>/listMode}" growing="true" noDataText="{i18n>NO_DATA_TEXT}"
+				growingScrollToLoad="true">
+				<!-- Extension point to add additional opportunity Items-->
+				<core:ExtensionPoint name="opportunityItemExtension"/>
+				<items>
+					<ObjectListItem id="MAIN_LIST_ITEM" press="_handleItemPress" type="{device>/listItemType}"
+						title="{parts:[{path:'ProspectName'}, {path:'ProspectNumber'}], formatter:'cus.crm.opportunity.util.Formatter.formatProspect'}">
+						<attributes>
+							<ObjectAttribute id="objAttribute1"
+								text="Next Follow Up: {path:'NEXTFOLLOWUP',type: 'sap.ui.model.type.Date', formatOptions: {pattern: 'dd.MM.yyyy', strictParsing: true , UTC: true}}"/>
+							<ObjectAttribute id="objAttribute2"
+								text="Visit Date:{path:'VISITDATE' ,type: 'sap.ui.model.type.Date', formatOptions: {pattern: 'dd.MM.yyyy', strictParsing: true , UTC: true}}"/>
+							<!-- Extension point to add additional opportunity Item Attributes-->
+							<core:ExtensionPoint name="opportunityItemAttributeExtension"/>
+						</attributes>
+						<firstStatus>
+							<!-- extension to add new Status -->
+							<core:ExtensionPoint name="opportunityItemStatusExtension"/>
+						</firstStatus>
+						<secondStatus>
+							<ObjectStatus id="objstatus" text="{ path: 'UserStatusText', formatter: 'appHelper.custFormatter.formatStatus' }"/>
+						</secondStatus>
+					</ObjectListItem>
+				</items>
+				<infoToolbar >
+					<Toolbar id="toolbarInfo" visible="false">
+						<Label id="labelInfo" text=""/>
+						<ToolbarSpacer/>
+						<core:Icon id="crossIconMasterList" src="sap-icon://sys-cancel" press="_handleToolBar" tooltip="{i18n>CANCEL}" decorative="false"
+							ariaLabelledBy="labelInfo"/>
+					</Toolbar>
+				</infoToolbar>
+			</List>
+		</content>
+	</Page>
+</core:View>

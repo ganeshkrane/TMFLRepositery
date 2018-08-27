@@ -1,0 +1,464 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='AED')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='AED')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "AED",
+			"CurrencyText": "United Arab Emirates Dirham"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='ARS')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='ARS')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "ARS",
+			"CurrencyText": "Argentine Peso"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='ATS')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='ATS')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "ATS",
+			"CurrencyText": "Austrian Schilling (Old --> EUR)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='AUD')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='AUD')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "AUD",
+			"CurrencyText": "Australian Dollar"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='BEF')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='BEF')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "BEF",
+			"CurrencyText": "Belgian Franc (Old --> EUR)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='BRL')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='BRL')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "BRL",
+			"CurrencyText": "Brazilian Real"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='CAD')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='CAD')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "CAD",
+			"CurrencyText": "Canadian Dollar"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='CHF')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='CHF')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "CHF",
+			"CurrencyText": "Swiss Franc"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='CLP')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='CLP')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "CLP",
+			"CurrencyText": "Chilean Peso"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='CNY')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='CNY')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "CNY",
+			"CurrencyText": "Chinese Renminbi"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='COP')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='COP')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "COP",
+			"CurrencyText": "Colombian Peso"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='CZK')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='CZK')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "CZK",
+			"CurrencyText": "Czech Krona"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='DEM')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='DEM')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "DEM",
+			"CurrencyText": "German Mark    (Old --> EUR)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='0')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='0')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "0",
+			"CurrencyText": "European Currency Unit"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='ESP')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='ESP')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "ESP",
+			"CurrencyText": "Spanish Peseta (Old --> EUR)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='EUR')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='EUR')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "EUR",
+			"CurrencyText": "European Euro"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='FIM')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='FIM')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "FIM",
+			"CurrencyText": "Finnish Markka (Old --> EUR)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='FRF')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='FRF')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "FRF",
+			"CurrencyText": "French Franc (Old --> EUR)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='GBP')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='GBP')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "GBP",
+			"CurrencyText": "British Pound"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='HRK')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='HRK')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "HRK",
+			"CurrencyText": "Croatian Kuna"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='HUF')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='HUF')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "HUF",
+			"CurrencyText": "Hungarian Forint"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='IDR')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='IDR')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "IDR",
+			"CurrencyText": "Indonesian Rupiah"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='IEP')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='IEP')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "IEP",
+			"CurrencyText": "Irish Punt (Old --> EUR)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='IGP')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='IGP')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "IGP",
+			"CurrencyText": "American Dollar"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='ITL')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='ITL')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "ITL",
+			"CurrencyText": "Italian Lira (Old --> EUR)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='JPY')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='JPY')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "JPY",
+			"CurrencyText": "Japanese Yen"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='KRW')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='KRW')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "KRW",
+			"CurrencyText": "South Korean Won"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='LUF')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='LUF')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "LUF",
+			"CurrencyText": "Luxembourg Franc (Old --> EUR)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='MXN')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='MXN')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "MXN",
+			"CurrencyText": "Mexican Pesos"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='MXP')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='MXP')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "MXP",
+			"CurrencyText": "Mexican Peso (old)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='NLG')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='NLG')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "NLG",
+			"CurrencyText": "Dutch Guilder (Old --> EUR)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='NOK')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='NOK')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "NOK",
+			"CurrencyText": "Norwegian Krone"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='NZD')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='NZD')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "NZD",
+			"CurrencyText": "New Zealand Dollars"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='PEN')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='PEN')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "PEN",
+			"CurrencyText": "Peruvian New Sol"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='PLN')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='PLN')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "PLN",
+			"CurrencyText": "Polish Zloty (new)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='PTE')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='PTE')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "PTE",
+			"CurrencyText": "Portuguese Escudo (Old --> EUR)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='CNY')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='CNY')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "CNY",
+			"CurrencyText": "Chinese Yuan Renminbi"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='ROL')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='ROL')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "ROL",
+			"CurrencyText": "Romanian Leu (Old)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='RUB')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='RUB')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "RUB",
+			"CurrencyText": "Russian Ruble"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='RUR')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='RUR')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "RUR",
+			"CurrencyText": "Russian Rubel"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='SEK')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='SEK')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "SEK",
+			"CurrencyText": "Swedish Krona"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='SGD')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='SGD')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "SGD",
+			"CurrencyText": "Singapore Dollar"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='SIT')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='SIT')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "SIT",
+			"CurrencyText": "Slovenian Tolar (Old --> EUR)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='SKK')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='SKK')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "SKK",
+			"CurrencyText": "Slovakian Krona (Old --> EUR)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='THB')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='THB')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "THB",
+			"CurrencyText": "Thailand Baht"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='BND')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='BND')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "BND",
+			"CurrencyText": "American Dollar"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='TWD')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='TWD')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "TWD",
+			"CurrencyText": "New Taiwan Dollar"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='UNI')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='UNI')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "UNI",
+			"CurrencyText": "Universal Currency"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='USD')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='USD')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "USD",
+			"CurrencyText": "United States Dollar"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='VEB')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='VEB')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "VEB",
+			"CurrencyText": "Venezuelan Bolivar (Old)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='ZAR')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Currencies(LanguageCode='EN',CurrencyKey='ZAR')",
+				"type": "CRM_OPPORTUNITY.Currency"
+			},
+			"LanguageCode": "EN",
+			"CurrencyKey": "ZAR",
+			"CurrencyText": "South African Rand"
+		}]
+	}
+}

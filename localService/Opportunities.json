@@ -1,0 +1,254 @@
+{
+	"d": {
+		"__count": "2",
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'0090FA0D-8D72-1EE2-BC89-687761778579')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'0090FA0D-8D72-1EE2-BC89-687761778579')",
+				"type": "CRM_OPPORTUNITY.Opportunity",
+				"etag": "W/\"'F197C53202588B97931F247AFE5E7E694A4F8C4F'\""
+			},
+			"Guid": "0090FA0D-8D72-1EE2-BC89-687761778579",
+			"Id": "2773",
+			"ProcessType": "OPSM",
+			"Description": "Easy Hand 3",
+			"StartDate": "\/Date(1374192000000)\/",
+			"ClosingDate": "\/Date(1374278400000)\/",
+			"ExpectedSalesVolume": "4900.00",
+			"TotalExpectedNetValue": "2333.00",
+			"CurrencyCode": "USD",
+			"SalesStageCode": "SM1",
+			"SalesStageText": "Identify Opportunity",
+			"ChanceOfSuccess": "100",
+			"PriorityCode": "3",
+			"PriorityText": "low",
+			"ProspectNumber": "3272",
+			"ProspectName": "SONX World Seattle 98155",
+			"UserStatusCode": "E0003",
+			"UserStatusText": "Won",
+			"ForecastRelevance": true,
+			"MainContactId": "418951",
+			"MainContactName": "Vasudha RK Seattle 98155",
+			"EmployeeResponsibleNumber": "419099",
+			"EmployeeResponsibleName": "sai sai",
+			"PredecessorID": "",
+			"ProcessTypeDescription": "",
+			"ProcessTypeDescriptionLong": "",
+			"PredecessorGUID": null,
+			"SalesOrganization": "O 50000001",
+			"SalesOrganizationDescription": "PC4U US (SORG 3020)",
+			"DistributionChannel": "30",
+			"DistributionChannelDescription": "Internet Sales",
+			"Division": "",
+			"DivisionDescription": "",
+			"Etag": "F197C53202588B97931F247AFE5E7E694A4F8C4F",
+			"Attachments": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'0090FA0D-8D72-1EE2-BC89-687761778579')/Attachments"
+				}
+			},
+			"Statuses": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'0090FA0D-8D72-1EE2-BC89-687761778579')/Statuses"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'0090FA0D-8D72-1EE2-BC89-687761778579')/Products"
+				}
+			},
+			"SalesTeam": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'0090FA0D-8D72-1EE2-BC89-687761778579')/SalesTeam"
+				}
+			},
+			"Competitors": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'0090FA0D-8D72-1EE2-BC89-687761778579')/Competitors"
+				}
+			},
+			"ChangeDocs": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'0090FA0D-8D72-1EE2-BC89-687761778579')/ChangeDocs"
+				}
+			},
+			"Notes": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'0090FA0D-8D72-1EE2-BC89-687761778579')/Notes"
+				}
+			},
+			"OpportunityLogSet": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'0090FA0D-8D72-1EE2-BC89-687761778579')/OpportunityLogSet"
+				}
+			},
+			"DocumentHistory": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'0090FA0D-8D72-1EE2-BC89-687761778579')/DocumentHistory"
+				}
+			},
+			"Account": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'0090FA0D-8D72-1EE2-BC89-687761778579')/Account"
+				}
+			},
+			"MainContact": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'0090FA0D-8D72-1EE2-BC89-687761778579')/MainContact"
+				}
+			},
+			"ContactRel": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'0090FA0D-8D72-1EE2-BC89-687761778579')/ContactRel"
+				}
+			},
+			"EmployeeRel": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'0090FA0D-8D72-1EE2-BC89-687761778579')/EmployeeRel"
+				}
+			},
+			"ComplexNotes": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'0090FA0D-8D72-1EE2-BC89-687761778579')/ComplexNotes"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')",
+				"type": "CRM_OPPORTUNITY.Opportunity",
+				"etag": "W/\"'B109EF408955AD786A28FCA996C0EDA4B4CFE050'\""
+			},
+			"Guid": "3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6",
+			"Id": "5805",
+			"ProcessType": "OPSM",
+			"Description": "Easy Hand 4",
+			"StartDate": "\/Date(1374192000000)\/",
+			"ClosingDate": "\/Date(1374278400000)\/",
+			"ExpectedSalesVolume": "4900.00",
+			"TotalExpectedNetValue": "2333.00",
+			"CurrencyCode": "USD",
+			"SalesStageCode": "SM1",
+			"SalesStageText": "Identify Opportunity",
+			"ChanceOfSuccess": "010",
+			"PriorityCode": "2",
+			"PriorityText": "important",
+			"ProspectNumber": "3272",
+			"ProspectName": "SONX World Seattle 98155",
+			"UserStatusCode": "E0001",
+			"UserStatusText": "Open",
+			"ForecastRelevance": true,
+			"MainContactId": "418951",
+			"MainContactName": "Vasudha RK Seattle 98155",
+			"EmployeeResponsibleNumber": "419099",
+			"EmployeeResponsibleName": "sai sai",
+			"PredecessorID": "",
+			"ProcessTypeDescription": "Opportunity Including Sales Methodology",
+			"ProcessTypeDescriptionLong": "Opportunity Including Sales Methodology",
+			"PredecessorGUID": null,
+			"SalesOrganization": "O 50000001",
+			"SalesOrganizationDescription": "PC4U US (SORG 3020)",
+			"DistributionChannel": "30",
+			"DistributionChannelDescription": "Internet Sales",
+			"Division": "00",
+			"DivisionDescription": "Cross-division",
+			"Etag": "B109EF408955AD786A28FCA996C0EDA4B4CFE050",
+			"Attachments": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')/Attachments"
+				}
+			},
+			"Statuses": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')/Statuses"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')/Products"
+				}
+			},
+			"SalesTeam": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')/SalesTeam"
+				}
+			},
+			"Competitors": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')/Competitors"
+				}
+			},
+			"ChangeDocs": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')/ChangeDocs"
+				}
+			},
+			"Notes": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')/Notes"
+				}
+			},
+			"OpportunityLogSet": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')/OpportunityLogSet"
+				}
+			},
+			"DocumentHistory": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')/DocumentHistory"
+				}
+			},
+			"Account": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')/Account"
+				}
+			},
+			"MainContact": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')/MainContact"
+				}
+			},
+			"ContactRel": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')/ContactRel"
+				}
+			},
+			"EmployeeRel": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Opportunities(guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6')/EmployeeRel"
+				}
+			},
+			"ComplexNotes": {
+				"results": [{
+					"__metadata": {
+						"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityComplexNotesSet(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',TextLanguageID='EN',TextObjectID='O001')",
+						"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityComplexNotesSet(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',TextLanguageID='EN',TextObjectID='O001')",
+						"type": "CRM_OPPORTUNITY.OpportunityComplexNotes",
+						"etag": "W/\"'20150213090637'\""
+					},
+					"HeaderGuid": "3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6",
+					"Creator": "Ben Li",
+					"Content": "- Why is the customer looking for a new solution?\r\n\r\n- What is he currently using?\r\n\r\n- Which requirements should be fulfilled by the new solution?\r\n\r\n- Does a link to other projects exist?\r\n\r\n- Which milestones exist with the customer?\r\n\r\nCreate a test NOTE 22   ",
+					"CreatedAt": "\/Date(1423814609000)\/",
+					"TextLanguageID": "EN",
+					"TextObjectID": "O001",
+					"Etag": "20150213090637"
+				}, {
+					"__metadata": {
+						"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityComplexNotesSet(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',TextLanguageID='EN',TextObjectID='O002')",
+						"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityComplexNotesSet(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',TextLanguageID='EN',TextObjectID='O002')",
+						"type": "CRM_OPPORTUNITY.OpportunityComplexNotes",
+						"etag": "W/\"'20150213090713'\""
+					},
+					"HeaderGuid": "3440B5B1-73AE-1ED4-ACEAp-D90FE42C9FA6",
+					"Creator": "Ben Li",
+					"Content": "- Which solution do we want to sell?\r\n\r\n- Which short and long term goals are we pursuing?\r\n\r\nCreate a test NOTE 11\r\nCreate a test NOTE 11\r\nCreate a test NOTE 22                                                                                                       ",
+					"CreatedAt": "\/Date(1423814609000)\/",
+					"TextLanguageID": "EN",
+					"TextObjectID": "O002",
+					"Etag": "20150213090713"
+				}]
+			}
+		}]
+	}
+}

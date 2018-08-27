@@ -1,0 +1,805 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='CXOP',TextObjectID='A002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='CXOP',TextObjectID='A002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "CXOP",
+			"TextObjectID": "A002",
+			"TextObjectDescription": "Note",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='DROP',TextObjectID='P001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='DROP',TextObjectID='P001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "DROP",
+			"TextObjectID": "P001",
+			"TextObjectDescription": "Description: Detail",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='DROP',TextObjectID='P002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='DROP',TextObjectID='P002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "DROP",
+			"TextObjectID": "P002",
+			"TextObjectDescription": "Description: Primary",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='DROP',TextObjectID='P003')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='DROP',TextObjectID='P003')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "DROP",
+			"TextObjectID": "P003",
+			"TextObjectDescription": "Description: Summary",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='DROP',TextObjectID='A002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='DROP',TextObjectID='A002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "DROP",
+			"TextObjectID": "A002",
+			"TextObjectDescription": "Note",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='DROP',TextObjectID='O001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='DROP',TextObjectID='O001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "DROP",
+			"TextObjectID": "O001",
+			"TextObjectDescription": "Goals of Interested Party",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='DROP',TextObjectID='O002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='DROP',TextObjectID='O002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "DROP",
+			"TextObjectID": "O002",
+			"TextObjectDescription": "Our Goals",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTCP',TextObjectID='P001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTCP',TextObjectID='P001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTCP",
+			"TextObjectID": "P001",
+			"TextObjectDescription": "Description: Detail",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTCP',TextObjectID='P002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTCP',TextObjectID='P002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTCP",
+			"TextObjectID": "P002",
+			"TextObjectDescription": "Description: Primary",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTCP',TextObjectID='P003')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTCP',TextObjectID='P003')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTCP",
+			"TextObjectID": "P003",
+			"TextObjectDescription": "Description: Summary",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTCP',TextObjectID='A002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTCP',TextObjectID='A002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTCP",
+			"TextObjectID": "A002",
+			"TextObjectDescription": "Note",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTCP',TextObjectID='O001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTCP',TextObjectID='O001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTCP",
+			"TextObjectID": "O001",
+			"TextObjectDescription": "Goals of Interested Party",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTCP',TextObjectID='O002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTCP',TextObjectID='O002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTCP",
+			"TextObjectID": "O002",
+			"TextObjectDescription": "Our Goals",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDA',TextObjectID='P001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDA',TextObjectID='P001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTDA",
+			"TextObjectID": "P001",
+			"TextObjectDescription": "Description: Detail",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDA',TextObjectID='P002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDA',TextObjectID='P002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTDA",
+			"TextObjectID": "P002",
+			"TextObjectDescription": "Description: Primary",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDA',TextObjectID='P003')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDA',TextObjectID='P003')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTDA",
+			"TextObjectID": "P003",
+			"TextObjectDescription": "Description: Summary",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDA',TextObjectID='A002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDA',TextObjectID='A002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTDA",
+			"TextObjectID": "A002",
+			"TextObjectDescription": "Note",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDA',TextObjectID='P004')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDA',TextObjectID='P004')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTDA",
+			"TextObjectID": "P004",
+			"TextObjectDescription": "Comment from Fast Entry",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDP',TextObjectID='P001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDP',TextObjectID='P001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTDP",
+			"TextObjectID": "P001",
+			"TextObjectDescription": "Description: Detail",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDP',TextObjectID='P002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDP',TextObjectID='P002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTDP",
+			"TextObjectID": "P002",
+			"TextObjectDescription": "Description: Primary",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDP',TextObjectID='P003')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDP',TextObjectID='P003')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTDP",
+			"TextObjectID": "P003",
+			"TextObjectDescription": "Description: Summary",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDP',TextObjectID='A002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDP',TextObjectID='A002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTDP",
+			"TextObjectID": "A002",
+			"TextObjectDescription": "Note",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDP',TextObjectID='P004')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTDP',TextObjectID='P004')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTDP",
+			"TextObjectID": "P004",
+			"TextObjectDescription": "Comment from Fast Entry",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTOR',TextObjectID='P001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTOR',TextObjectID='P001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTOR",
+			"TextObjectID": "P001",
+			"TextObjectDescription": "Description: Detail",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTOR',TextObjectID='P002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTOR',TextObjectID='P002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTOR",
+			"TextObjectID": "P002",
+			"TextObjectDescription": "Description: Primary",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTOR',TextObjectID='P003')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTOR',TextObjectID='P003')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTOR",
+			"TextObjectID": "P003",
+			"TextObjectDescription": "Description: Summary",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTOR',TextObjectID='A002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTOR',TextObjectID='A002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTOR",
+			"TextObjectID": "A002",
+			"TextObjectDescription": "Note",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTOR',TextObjectID='O001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTOR',TextObjectID='O001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTOR",
+			"TextObjectID": "O001",
+			"TextObjectDescription": "Goals of Interested Party",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTOR',TextObjectID='O002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='HTOR',TextObjectID='O002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "HTOR",
+			"TextObjectID": "O002",
+			"TextObjectDescription": "Our Goals",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OISU',TextObjectID='O001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OISU',TextObjectID='O001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OISU",
+			"TextObjectID": "O001",
+			"TextObjectDescription": "Goals of Interested Party",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OISU',TextObjectID='O003')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OISU',TextObjectID='O003')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OISU",
+			"TextObjectID": "O003",
+			"TextObjectDescription": "Note for Buying Center",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OISU',TextObjectID='O002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OISU',TextObjectID='O002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OISU",
+			"TextObjectID": "O002",
+			"TextObjectDescription": "Our Goals",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OISU',TextObjectID='A001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OISU',TextObjectID='A001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OISU",
+			"TextObjectID": "A001",
+			"TextObjectDescription": "Description",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPBA',TextObjectID='O001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPBA',TextObjectID='O001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPBA",
+			"TextObjectID": "O001",
+			"TextObjectDescription": "Goals of Interested Party",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPBA',TextObjectID='O003')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPBA',TextObjectID='O003')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPBA",
+			"TextObjectID": "O003",
+			"TextObjectDescription": "Note for Buying Center",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPBA',TextObjectID='O002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPBA',TextObjectID='O002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPBA",
+			"TextObjectID": "O002",
+			"TextObjectDescription": "Our Goals",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPBA',TextObjectID='A001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPBA',TextObjectID='A001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPBA",
+			"TextObjectID": "A001",
+			"TextObjectDescription": "Description",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPCP',TextObjectID='O001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPCP',TextObjectID='O001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPCP",
+			"TextObjectID": "O001",
+			"TextObjectDescription": "Goals of Interested Party",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPCP',TextObjectID='O003')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPCP',TextObjectID='O003')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPCP",
+			"TextObjectID": "O003",
+			"TextObjectDescription": "Note for Buying Center",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPCP',TextObjectID='O002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPCP',TextObjectID='O002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPCP",
+			"TextObjectID": "O002",
+			"TextObjectDescription": "Our Goals",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPCP',TextObjectID='A001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPCP',TextObjectID='A001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPCP",
+			"TextObjectID": "A001",
+			"TextObjectDescription": "Description",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPFS',TextObjectID='O001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPFS',TextObjectID='O001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPFS",
+			"TextObjectID": "O001",
+			"TextObjectDescription": "Goals of Interested Party",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPFS',TextObjectID='O003')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPFS',TextObjectID='O003')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPFS",
+			"TextObjectID": "O003",
+			"TextObjectDescription": "Note for Buying Center",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPFS',TextObjectID='O002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPFS',TextObjectID='O002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPFS",
+			"TextObjectID": "O002",
+			"TextObjectDescription": "Our Goals",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPFS',TextObjectID='A001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPFS',TextObjectID='A001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPFS",
+			"TextObjectID": "A001",
+			"TextObjectDescription": "Description",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPPO',TextObjectID='A004')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPPO',TextObjectID='A004')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPPO",
+			"TextObjectID": "A004",
+			"TextObjectDescription": "Report",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPPO',TextObjectID='A002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPPO',TextObjectID='A002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPPO",
+			"TextObjectID": "A002",
+			"TextObjectDescription": "Note",
+			"TextEditType": "P"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPPO',TextObjectID='0002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPPO',TextObjectID='0002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPPO",
+			"TextObjectID": "0002",
+			"TextObjectDescription": "Internal note",
+			"TextEditType": "P"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPPT',TextObjectID='A004')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPPT',TextObjectID='A004')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPPT",
+			"TextObjectID": "A004",
+			"TextObjectDescription": "Report",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPPT',TextObjectID='A002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPPT',TextObjectID='A002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPPT",
+			"TextObjectID": "A002",
+			"TextObjectDescription": "Note",
+			"TextEditType": "P"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPPT',TextObjectID='0002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPPT',TextObjectID='0002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPPT",
+			"TextObjectID": "0002",
+			"TextObjectDescription": "Internal note",
+			"TextEditType": "P"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPSM',TextObjectID='O001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPSM',TextObjectID='O001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPSM",
+			"TextObjectID": "O001",
+			"TextObjectDescription": "Goals of Interested Party",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPSM',TextObjectID='O003')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPSM',TextObjectID='O003')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPSM",
+			"TextObjectID": "O003",
+			"TextObjectDescription": "Note for Buying Center",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPSM',TextObjectID='O002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPSM',TextObjectID='O002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPSM",
+			"TextObjectID": "O002",
+			"TextObjectDescription": "Our Goals",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPSM',TextObjectID='A001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='OPSM',TextObjectID='A001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "OPSM",
+			"TextObjectID": "A001",
+			"TextObjectDescription": "Description",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ORGN',TextObjectID='P001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ORGN',TextObjectID='P001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "ORGN",
+			"TextObjectID": "P001",
+			"TextObjectDescription": "Description: Detail",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ORGN',TextObjectID='P002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ORGN',TextObjectID='P002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "ORGN",
+			"TextObjectID": "P002",
+			"TextObjectDescription": "Description: Primary",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ORGN',TextObjectID='P003')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ORGN',TextObjectID='P003')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "ORGN",
+			"TextObjectID": "P003",
+			"TextObjectDescription": "Description: Summary",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ORGN',TextObjectID='A002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ORGN',TextObjectID='A002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "ORGN",
+			"TextObjectID": "A002",
+			"TextObjectDescription": "Note",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ORGN',TextObjectID='O001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ORGN',TextObjectID='O001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "ORGN",
+			"TextObjectID": "O001",
+			"TextObjectDescription": "Goals of Interested Party",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ORGN',TextObjectID='O002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ORGN',TextObjectID='O002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "ORGN",
+			"TextObjectID": "O002",
+			"TextObjectDescription": "Our Goals",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP1',TextObjectID='A004')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP1',TextObjectID='A004')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "VOP1",
+			"TextObjectID": "A004",
+			"TextObjectDescription": "Report",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP1',TextObjectID='A002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP1',TextObjectID='A002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "VOP1",
+			"TextObjectID": "A002",
+			"TextObjectDescription": "Note",
+			"TextEditType": "P"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP1',TextObjectID='0002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP1',TextObjectID='0002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "VOP1",
+			"TextObjectID": "0002",
+			"TextObjectDescription": "Internal note",
+			"TextEditType": "P"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP2',TextObjectID='A004')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP2',TextObjectID='A004')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "VOP2",
+			"TextObjectID": "A004",
+			"TextObjectDescription": "Report",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP2',TextObjectID='A002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP2',TextObjectID='A002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "VOP2",
+			"TextObjectID": "A002",
+			"TextObjectDescription": "Note",
+			"TextEditType": "P"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP2',TextObjectID='0002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP2',TextObjectID='0002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "VOP2",
+			"TextObjectID": "0002",
+			"TextObjectDescription": "Internal note",
+			"TextEditType": "P"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP3',TextObjectID='A004')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP3',TextObjectID='A004')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "VOP3",
+			"TextObjectID": "A004",
+			"TextObjectDescription": "Report",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP3',TextObjectID='A002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP3',TextObjectID='A002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "VOP3",
+			"TextObjectID": "A002",
+			"TextObjectDescription": "Note",
+			"TextEditType": "P"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP3',TextObjectID='0002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='VOP3',TextObjectID='0002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "VOP3",
+			"TextObjectID": "0002",
+			"TextObjectDescription": "Internal note",
+			"TextEditType": "P"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZOPP',TextObjectID='A004')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZOPP',TextObjectID='A004')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "ZOPP",
+			"TextObjectID": "A004",
+			"TextObjectDescription": "Report",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZOPP',TextObjectID='A002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZOPP',TextObjectID='A002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "ZOPP",
+			"TextObjectID": "A002",
+			"TextObjectDescription": "Note",
+			"TextEditType": "P"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZOPP',TextObjectID='0002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZOPP',TextObjectID='0002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "ZOPP",
+			"TextObjectID": "0002",
+			"TextObjectDescription": "Internal note",
+			"TextEditType": "P"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZPSM',TextObjectID='O001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZPSM',TextObjectID='O001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "ZPSM",
+			"TextObjectID": "O001",
+			"TextObjectDescription": "Goals of Interested Party",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZPSM',TextObjectID='O003')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZPSM',TextObjectID='O003')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "ZPSM",
+			"TextObjectID": "O003",
+			"TextObjectDescription": "Note for Buying Center",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZPSM',TextObjectID='O002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZPSM',TextObjectID='O002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "ZPSM",
+			"TextObjectID": "O002",
+			"TextObjectDescription": "Our Goals",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZPSM',TextObjectID='A001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZPSM',TextObjectID='A001')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "ZPSM",
+			"TextObjectID": "A001",
+			"TextObjectDescription": "Description",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZYYY',TextObjectID='A004')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZYYY',TextObjectID='A004')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "ZYYY",
+			"TextObjectID": "A004",
+			"TextObjectDescription": "Report",
+			"TextEditType": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZYYY',TextObjectID='A002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZYYY',TextObjectID='A002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "ZYYY",
+			"TextObjectID": "A002",
+			"TextObjectDescription": "Note",
+			"TextEditType": "P"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZYYY',TextObjectID='0002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextCustomizingSet(ProcessType='ZYYY',TextObjectID='0002')",
+				"type": "CRM_OPPORTUNITY.TextCustomizing"
+			},
+			"ProcessType": "ZYYY",
+			"TextObjectID": "0002",
+			"TextObjectDescription": "Internal note",
+			"TextEditType": "P"
+		}]
+	}
+}

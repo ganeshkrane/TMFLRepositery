@@ -1,0 +1,33 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityComplexNotesSet(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',TextLanguageID='EN',TextObjectID='O001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityComplexNotesSet(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',TextLanguageID='EN',TextObjectID='O001')",
+				"type": "CRM_OPPORTUNITY.OpportunityComplexNotes",
+				"etag": "W/\"'20150213090637'\""
+			},
+			"HeaderGuid": "3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6",
+			"Creator": "Ben Li",
+			"Content": "- Why is the customer looking for a new solution?\r\n\r\n- What is he currently using?\r\n\r\n- Which requirements should be fulfilled by the new solution?\r\n\r\n- Does a link to other projects exist?\r\n\r\n- Which milestones exist with the customer?\r\n\r\nCreate a test NOTE 22   ",
+			"CreatedAt": "\/Date(1423814609000)\/",
+			"TextLanguageID": "EN",
+			"TextObjectID": "O001",
+			"Etag": "20150213090637"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityComplexNotesSet(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',TextLanguageID='EN',TextObjectID='O002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityComplexNotesSet(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',TextLanguageID='EN',TextObjectID='O002')",
+				"type": "CRM_OPPORTUNITY.OpportunityComplexNotes",
+				"etag": "W/\"'20150213090713'\""
+			},
+			"HeaderGuid": "3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6",
+			"Creator": "Ben Li",
+			"Content": "- Which solution do we want to sell?\r\n\r\n- Which short and long term goals are we pursuing?\r\n\r\nCreate a test NOTE 11\r\nCreate a test NOTE 11\r\nCreate a test NOTE 22                                                                                                       ",
+			"CreatedAt": "\/Date(1423814609000)\/",
+			"TextLanguageID": "EN",
+			"TextObjectID": "O002",
+			"Etag": "20150213090713"
+		}]
+	}
+}

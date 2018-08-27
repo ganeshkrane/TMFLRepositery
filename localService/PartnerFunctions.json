@@ -1,0 +1,133 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/PartnerFunctions(PartnerFunctionCode='00000002',TransactionType='OPPT')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/PartnerFunctions(PartnerFunctionCode='00000002',TransactionType='OPPT')",
+				"type": "CRM_OPPORTUNITY.PartnerFunction"
+			},
+			"PartnerDetermineProcedure": "00000004",
+			"PartnerFunctionCode": "00000002",
+			"ChangeableFlag": true,
+			"CountLow": 0,
+			"CountHigh": 2,
+			"PartnerFunctionName": "Ship-To Party",
+			"PartnerFunctionCategory": "0002",
+			"RelationshipCategory": "CRMH02",
+			"TransactionType": "OPPT",
+			"mainPartnerFunction": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/PartnerFunctions(PartnerFunctionCode='00000003',TransactionType='OPPT')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/PartnerFunctions(PartnerFunctionCode='00000003',TransactionType='OPPT')",
+				"type": "CRM_OPPORTUNITY.PartnerFunction"
+			},
+			"PartnerDetermineProcedure": "00000004",
+			"PartnerFunctionCode": "00000003",
+			"ChangeableFlag": true,
+			"CountLow": 1,
+			"CountHigh": 2,
+			"PartnerFunctionName": "Bill-To Party",
+			"PartnerFunctionCategory": "0003",
+			"RelationshipCategory": "CRMH04",
+			"TransactionType": "OPPT",
+			"mainPartnerFunction": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/PartnerFunctions(PartnerFunctionCode='00000004',TransactionType='OPPT')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/PartnerFunctions(PartnerFunctionCode='00000004',TransactionType='OPPT')",
+				"type": "CRM_OPPORTUNITY.PartnerFunction"
+			},
+			"PartnerDetermineProcedure": "00000004",
+			"PartnerFunctionCode": "00000004",
+			"ChangeableFlag": true,
+			"CountLow": 0,
+			"CountHigh": 2,
+			"PartnerFunctionName": "Payer",
+			"PartnerFunctionCategory": "0004",
+			"RelationshipCategory": "CRMH03",
+			"TransactionType": "OPPT",
+			"mainPartnerFunction": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/PartnerFunctions(PartnerFunctionCode='00000012',TransactionType='OPPT')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/PartnerFunctions(PartnerFunctionCode='00000012',TransactionType='OPPT')",
+				"type": "CRM_OPPORTUNITY.PartnerFunction"
+			},
+			"PartnerDetermineProcedure": "00000004",
+			"PartnerFunctionCode": "00000012",
+			"ChangeableFlag": true,
+			"CountLow": 0,
+			"CountHigh": 2,
+			"PartnerFunctionName": "Sales Representative",
+			"PartnerFunctionCategory": "0005",
+			"RelationshipCategory": "BUR011",
+			"TransactionType": "OPPT",
+			"mainPartnerFunction": ""
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/PartnerFunctions(PartnerFunctionCode='00000014',TransactionType='OPPT')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/PartnerFunctions(PartnerFunctionCode='00000014',TransactionType='OPPT')",
+				"type": "CRM_OPPORTUNITY.PartnerFunction"
+			},
+			"PartnerDetermineProcedure": "00000004",
+			"PartnerFunctionCode": "00000014",
+			"ChangeableFlag": true,
+			"CountLow": 1,
+			"CountHigh": 2,
+			"PartnerFunctionName": "Employee Responsible",
+			"PartnerFunctionCategory": "0008",
+			"RelationshipCategory": "CRMH06",
+			"TransactionType": "OPPT",
+			"mainPartnerFunction": "X"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/PartnerFunctions(PartnerFunctionCode='00000015',TransactionType='OPPT')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/PartnerFunctions(PartnerFunctionCode='00000015',TransactionType='OPPT')",
+				"type": "CRM_OPPORTUNITY.PartnerFunction"
+			},
+			"PartnerDetermineProcedure": "00000004",
+			"PartnerFunctionCode": "00000015",
+			"ChangeableFlag": true,
+			"CountLow": 0,
+			"CountHigh": 2,
+			"PartnerFunctionName": "Contact Person",
+			"PartnerFunctionCategory": "0007",
+			"RelationshipCategory": "BUR001",
+			"TransactionType": "OPPT",
+			"mainPartnerFunction": "X"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/PartnerFunctions(PartnerFunctionCode='00000021',TransactionType='OPPT')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/PartnerFunctions(PartnerFunctionCode='00000021',TransactionType='OPPT')",
+				"type": "CRM_OPPORTUNITY.PartnerFunction"
+			},
+			"PartnerDetermineProcedure": "00000004",
+			"PartnerFunctionCode": "00000021",
+			"ChangeableFlag": false,
+			"CountLow": 1,
+			"CountHigh": 2,
+			"PartnerFunctionName": "Sales Prospect",
+			"PartnerFunctionCategory": "0006",
+			"RelationshipCategory": "BUR002",
+			"TransactionType": "OPPT",
+			"mainPartnerFunction": "X"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/PartnerFunctions(PartnerFunctionCode='00000023',TransactionType='OPPT')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/PartnerFunctions(PartnerFunctionCode='00000023',TransactionType='OPPT')",
+				"type": "CRM_OPPORTUNITY.PartnerFunction"
+			},
+			"PartnerDetermineProcedure": "00000004",
+			"PartnerFunctionCode": "00000023",
+			"ChangeableFlag": true,
+			"CountLow": 0,
+			"CountHigh": 10,
+			"PartnerFunctionName": "Competitor",
+			"PartnerFunctionCategory": "0009",
+			"RelationshipCategory": "",
+			"TransactionType": "OPPT",
+			"mainPartnerFunction": ""
+		}]
+	}
+}

@@ -1,0 +1,385 @@
+<!--Copyright (C) 2009-2017 SAP SE or an SAP affiliate company. All rights reserved.-->
+<core:View xmlns:core="sap.ui.core" xmlns:ui="sap.ui.layout" xmlns:layout="sap.ui.layout" xmlns:ca="sap.ca.ui" xmlns="sap.m"
+	xmlns:form="sap.ui.layout.form" xmlns:crm="sap.cus.crm.lib.reuse.controls" controllerName="cus.crm.opportunity.view.S3">
+	<Page id="S3_Header" title="{parts: [{path:'i18n>DETAIL_TITLE'} , {path:'json>/FanNo'}], formatter:'jQuery.sap.formatMessage'}">
+		<content>
+			<!-- Extension point to add additional opportunity headers -->
+			<core:ExtensionPoint name="opportunityHeaderExtension">
+				<ObjectHeader id="opportunityHeader" title="{json>/ProspectName}"
+					number="{path:'json>/ExpectedSalesVolume' , formatter: 'appHelper.custFormatter.volumeFormatter1'}"
+					numberUnit="{ path: 'json>/CurrencyCode', formatter:'cus.crm.opportunity.util.Formatter.currencycode'}">
+					<attributes>
+						<ObjectAttribute text="Fan No:{json>/FanNo}"/>
+						<!-- Extension point to add additional header attributes at top -->
+						<core:ExtensionPoint name="opportunityHeaderAttributeTopExtension"></core:ExtensionPoint>
+						<ObjectAttribute id="opportunityProspectName"
+							text="{parts:[{path:'i18n>OPPT_ACCOUNT'},{path:'json>/ProspectName'}, {path:'json>/ProspectNumber'}], formatter:'cus.crm.opportunity.util.Formatter.formatOverviewField'}">
+							<customData>
+								<core:CustomData key="PartnerNumber" value="{json>/ProspectNumber}"/>
+								<core:CustomData key="PartnerFunctionCode" value="00000021"/>
+								<core:CustomData key="Image" value="{json>/ImgSrc}"/>
+								<core:CustomData key="Image" value="{json>/ContactImgSrc}"/>
+							</customData>
+						</ObjectAttribute>
+						<ObjectAttribute id="opportunityContactName"
+							text="{parts:[{path:'i18n>OPPT_CONTACT'},{path:'json>/MainContactName'}], formatter:'cus.crm.opportunity.util.Formatter.formatOverviewField'}">
+							<customData>
+								<core:CustomData key="PartnerNumber" value="{json>/MainContactId}"/>
+								<core:CustomData key="PartnerFunctionCode" value="00000015"/>
+								<core:CustomData key="Image" value="{json>/ContactImgSrc}"/>
+								<core:CustomData key="Image" value="{json>/ImgSrc}"/>
+							</customData>
+						</ObjectAttribute>
+						<!-- Extension point to add additional header attributes at end -->
+						<core:ExtensionPoint name="opportunityHeaderAttributeBottomExtension"></core:ExtensionPoint>
+					</attributes>
+				</ObjectHeader>
+			</core:ExtensionPoint>
+			<ui:VerticalLayout id="icntabVLayout" class="icntabVLayout" width="100%" height="100%">
+				<ui:HorizontalLayout id="icntabHLayout" class="icntabHLayout" width="100%" height="100%">
+					<!-- Extension point to add additional opportunity icon tab bar on left -->
+					<core:ExtensionPoint name="opportunityIcnTabBarLeftExtension"></core:ExtensionPoint>
+					<IconTabBar id="icntab" select="selectedTab">
+						<items>
+							<!-- Extension point to add additional tab bars -->
+							<core:ExtensionPoint name="opportunityTabBarItemFirstExtension"></core:ExtensionPoint>
+							<IconTabFilter id="info" text="{i18n>INFO}" key="Info" icon="sap-icon://hint" iconColor="Neutral">
+								<content>
+									<!-- Extension point to add additional info tab content -->
+									<core:ExtensionPoint name="opportunityInfoTabContentTopExtension"></core:ExtensionPoint>
+									<ui:form.SimpleForm id="opportunityID_form" layout="ResponsiveGridLayout">
+										<ui:content>
+											<Label id="opportunityType_label1" text="{i18n>TYPE}"></Label>
+											<Text id="opportunityType_Text1" text="{json>/ProcessTypeDescriptionLong}"></Text>
+										</ui:content>
+										<ui:content>
+											<Label id="opportunityID_label" text="{i18n>OPPOR_ID}"></Label>
+											<Text id="opportunityID_Text" text="{json>/Id}"></Text>
+										</ui:content>
+										<ui:content>
+											<Label id="opportunityFleetSize_label" text="{i18n>Fleet_size}"></Label>
+											<Text id="opportunityFleetSize_Text" text="{json>/FLEETSIZE}"></Text>
+										</ui:content>
+										<ui:content>
+											<Label id="opportunityCustSegment_label" text="{i18n>Cust_Segment}"></Label>
+											<ComboBox id="opportunityCustSegment_Text" class="ComboClass" editable="false" width="20%" height="35%" items="{json>/Zcustseg/results}"
+												selectedKey="{json>/CUSTSEGMENT}">
+												<items >
+													<core:Item key="{json>Zzcustseg}" text="{json>DESC}"></core:Item>
+												</items>
+											</ComboBox>
+										</ui:content>
+										<ui:content class="comboHclass">
+											<Label id="opportunityFleet_Application_label" text="{i18n>Fleet_Application}"></Label>
+											<ComboBox id="opportunityFleet_Application_Text" class="ComboClass" editable="false" width="40%" height="35%"
+												items="{json>/ZFLEET_APP_MASTS/results}" selectedKey="{json>/FLEETAPPL}">
+												<items>
+													<core:Item key="{json>FNO}" text="{json>Fleetapp}"></core:Item>
+												</items>
+											</ComboBox>
+										</ui:content>
+										<ui:content>
+											<Label id="opportunityDealer_Label" text="{i18n>SC}"></Label>
+											<ComboBox id="cusDealerSelect" editable="false" class="ComboClass" items="{json>/ZBU_DESCRIPSet/results}" width="40%"
+												selectedKey="{json>/DEALERNAME}" selectionChange="onComboChanged">
+												<items>
+													<core:Item key="{json>Partner}" text="{json>BuDescrip}"></core:Item>
+												</items>
+											</ComboBox>
+											<Label text="Branch"></Label>
+											<ComboBox id="cusDealerCVPV" items="{/ZsalesofficeF4Set}" visible="true" editable="false" width="40%" class="ComboClass"
+												selectionChange="onBranchChanged" selectedKey="{json>/Branch}">
+												<items>
+													<core:Item key="{Short}" text="{Stext}"></core:Item>
+												</items>
+											</ComboBox>
+										</ui:content>
+										<ui:content>
+											<Label id="opportunityLead_StatusOpen_Label" text="{i18n>Lead_StatusOpen}"></Label>
+											<Text id="opportunityLead_StatusOpen_Text" text="{json>/UserStatusText}" TextAlign="Right"></Text>
+										</ui:content>
+										<ui:content>
+											<Label id="opportunityLead_Origin_Label" text="{i18n>Origin}"/>
+											<Text id="opportunityLead_Origin_Text" text="{json>/Source}" TextAlign="Right"/>
+										</ui:content>
+										<ui:content>
+											<Label id="opportunityNext_Followup_Label" text="{i18n>Next_Followup}"></Label>
+											<Text id="opportunityNext_Followup_Text"
+												text="{ path:'json>/NEXTFOLLOWUP', type: 'sap.ui.model.type.Date', formatOptions: {pattern: 'dd.MM.yyyy', strictParsing: true , UTC: true}}"></Text>
+										</ui:content>
+										<ui:content>
+											<Label id="opportunityTentative_Date_Label" text="{i18n>Tentative_Date}"></Label>
+											<Text id="opportunityTentative_Date_Text"
+												text="{path:'json>/TENTIVEDATE' , type: 'sap.ui.model.type.Date', formatOptions: {pattern: 'dd.MM.yyyy', strictParsing: true , UTC: true}}"></Text>
+										</ui:content>
+										<ui:content>
+											<Label id="opportunityVisit_Date_Label" text="{i18n>Visit_Date}"></Label>
+											<Text id="opportunityVisit_Date_Text"
+												text="{path:'json>/VISITDATE' , type: 'sap.ui.model.type.Date', formatOptions: {pattern: 'dd.MM.yyyy', strictParsing: true , UTC: true}}"></Text>
+										</ui:content>
+										<ui:content>
+											<Label id="opportunityLogChange_Label" text="{i18n>LOG_CHANGE}"></Label>
+											<Link text="{i18n>VIEW}" press="onLogChange" id="log"></Link>
+										</ui:content>
+									</ui:form.SimpleForm>
+									<core:ExtensionPoint name="opportunityInfoTabContentBottomExtension"></core:ExtensionPoint>
+								</content>
+							</IconTabFilter>
+							<!-- sales area Info Tab -->
+							<IconTabFilter id="tab_salesarea" visible="false" icon="sap-icon://org-chart" key="SalesArea" text="{i18n>SALES_AREA}" iconColor="Neutral">
+								<content>
+									<!-- Extension point to add additional sales Area tab content on top -->
+									<core:ExtensionPoint name="salesAreaInfoTabContentTopExtension"></core:ExtensionPoint>
+									<Panel>
+										<headerToolbar>
+											<Toolbar>
+												<Title text="{i18n>SALES_AREA}"/>
+												<ToolbarSpacer/>
+												<Button id="salesareaIcon" icon="sap-icon://edit" type="Transparent" press="showSalesAreaF4" tooltip="{i18n>TOOLTIP_EDIT}"
+													visible="{path: 'onlineOfflineMode>/bOffline', formatter : 'cus.crm.opportunity.util.Formatter.formatHideButtonInOfflineMode'}"/>
+											</Toolbar>
+										</headerToolbar>
+										<content>
+											<ui:form.SimpleForm id="opportunitysalesorganization_form" layout="ResponsiveGridLayout">
+												<ui:content>
+													<Label id="salesorganization_label" text="{i18n>SALES_ORGANIZATION}"></Label>
+													<Text id="salesorganization_Text"
+														text="{parts: [{path :'json>/SalesOrganizationDescription'},{path : 'json>/SalesOrganization'}], formatter : 'cus.crm.opportunity.util.Formatter.formatSalesOrganization'}"></Text>
+												</ui:content>
+											</ui:form.SimpleForm>
+											<ui:form.SimpleForm id="opportunitydistributionchannel_form" layout="ResponsiveGridLayout">
+												<ui:content>
+													<Label id="distributionchannel_label" text="{i18n>DISTRIBUTION_CHANNEL}"></Label>
+													<Text id="distributionchannel_Text"
+														text="{parts: [{path :'json>/DistributionChannelDescription'},{path : 'json>/DistributionChannel'}], formatter : 'cus.crm.opportunity.util.Formatter.formatDistributionChannel'}"></Text>
+												</ui:content>
+											</ui:form.SimpleForm>
+											<ui:form.SimpleForm id="opportunitydivision_form" layout="ResponsiveGridLayout">
+												<ui:content>
+													<Label id="division_label" text="{i18n>DIVISION}"></Label>
+													<Text id="division_Text"
+														text="{parts: [{path :'json>/DivisionDescription'},{path : 'json>/Division'}], formatter : 'cus.crm.opportunity.util.Formatter.formatDivision'}"></Text>
+												</ui:content>
+											</ui:form.SimpleForm>
+											<!-- Extension point to add additional Sales Area info -->
+											<core:ExtensionPoint name="salesAreaInfoTabContentBottomExtension"></core:ExtensionPoint>
+										</content>
+									</Panel>
+								</content>
+							</IconTabFilter>
+							<IconTabFilter visible="false" id="tab_product" text="{i18n>PRODUCTS}" key="Products" icon="sap-icon://cart" iconColor="Neutral">
+								<content>
+									<!-- Extension point to add additional Product tab content -->
+									<core:ExtensionPoint name="opportunityProductTabContentExtension"></core:ExtensionPoint>
+									<Table id="Product_Tab" items="{json>/Products}" noDataText="{i18n>NOPRODUCTS}">
+										<headerToolbar>
+											<Toolbar id="productHeaderToolbar">
+												<Title
+													text="{parts:[{path:'i18n>PRODUCTS_HEADER'},{path:'json>/ProductsNum'}], formatter:'cus.crm.opportunity.util.Formatter.formatTabHeader'}"/>
+											</Toolbar>
+										</headerToolbar>
+										<columns>
+											<!-- Extension point to add additional Product Tab Coloum -->
+											<core:ExtensionPoint name="opportunityProductTabColoumExtension"></core:ExtensionPoint>
+											<Column id="product_column" width="35%">
+												<header>
+													<Label id="productColumnLabel_S3" text="{i18n>PRODUCT}"></Label>
+												</header>
+											</Column>
+											<Column id="quanity_column" width="17.5%" hAlign="Right">
+												<header>
+													<Label id="productQuantity_S3" text="{i18n>QUANTITY}"></Label>
+												</header>
+											</Column>
+											<Column id="price_column" width="22.5%" hAlign="Right" minScreenWidth="Tablet" demandPopin="true">
+												<header>
+													<Label id="productPrice_S3" text="{i18n>UNIT_PRICE}"></Label>
+												</header>
+											</Column>
+											<Column id="volume_column" width="25%" hAlign="Right" minScreenWidth="Tablet" demandPopin="true">
+												<header>
+													<Label id="productVolume_S3" text="{i18n>VOLUME}"></Label>
+												</header>
+											</Column>
+										</columns>
+										<items>
+											<ColumnListItem id="productBasketTemplate_S3">
+												<cells>
+													<!-- Extension point to add additional product tab cell -->
+													<core:ExtensionPoint name="opportunityProductTabCellsExtension"></core:ExtensionPoint>
+													<ObjectIdentifier id="productName_cell"
+														title="{path : 'json>ProductGuid', formatter : 'cus.crm.opportunity.util.Formatter.formatProductName'}"
+														text="{path: 'json>ProductGuid',formatter : 'cus.crm.opportunity.util.Formatter.formatProdClassification'}"></ObjectIdentifier>
+													<ObjectNumber id="productQuantity_cell" number="{json>Quantity}" numberUnit="{json>Unit}"/>
+													<ObjectNumber id="productPrice_cell"
+														number="{parts:[{path:'json>NetValue'},{path: 'json>CurrencyCode'}] , formatter: 'cus.crm.opportunity.util.Formatter.volumeFormatter'}"
+														numberUnit="{json>CurrencyCode}"/>
+													<ObjectNumber id="productVolume_cell"
+														number="{parts:[{path:'json>TotalExpectedNetValue'},{path: 'json>CurrencyCode'}] , formatter: 'cus.crm.opportunity.util.Formatter.volumeFormatter'}"
+														numberUnit="{json>CurrencyCode}"/>
+												</cells>
+											</ColumnListItem>
+										</items>
+									</Table>
+								</content>
+							</IconTabFilter>
+							<!--Notes Tab using FeedInput -->
+							<IconTabFilter id="tab_notes" visible="false" icon="sap-icon://notes" key="Notesv2" text="{i18n>NOTES}" iconColor="Neutral">
+								<FeedInput id="notesList33" textMaxLength="1000" text="{json>Content}" post="_handleAddNote" showIcon="true" icon="{json>icon}" maxLines="3"></FeedInput>
+								<List id="listItem1" showSeparators="Inner" growing="true" growingThreshold="4" growingScrollToLoad="false"
+									items="{json>/OpportunityNotesSet}">
+									<FeedListItem sender="{path : 'json>Creator'}" senderActive="false"
+										timestamp="{path: 'json>CreatedAt', type: 'sap.ui.model.type.DateTime', formatOptions: {pattern: 'dd MMM yyyy hh:mm', strictParsing: true , UTC: true}}" text="{path : 'json>Content'}"/>
+								</List>
+							</IconTabFilter>
+							<!-- Multiple type note support -->
+							<IconTabFilter id="tab_notes_v2" icon="sap-icon://notes" visible="false" key="Notes" text="{i18n>NOTES}" iconColor="Neutral">
+								<FeedInput id="notesList" textMaxLength="1000" text="{json>Content}" post="_handleAddNote" showIcon="true" icon="{json>icon}" maxLines="3"></FeedInput>
+								<List id="listItem" showSeparators="Inner" growing="true" growingThreshold="4" growingScrollToLoad="false"
+									items="{json>/OpportunityNotesSet}">
+									<FeedListItem sender="{path : 'json>Creator'}" senderActive="false"
+										timestamp="{path: 'json>CreatedAt', type: 'sap.ui.model.type.DateTime', formatOptions: {pattern: 'dd MMM yyyy hh:mm', strictParsing: true , UTC: true, oLocale: 'en-IN'}}" text="{path : 'json>Content'}"/>
+								</List>
+							</IconTabFilter>
+							<IconTabFilter id="tab_attachment" icon="sap-icon://attachment" key="Attachments" text="{i18n>ATTACHMENTS}" iconColor="Neutral">
+								<content>
+									<UploadCollection id="fileupload" beforeUploadStarts="OnuploadBefore" typeMissmatch="onTypeMissmatch" maximumFilenameLength="40"
+										multiple="false" showSeparators="All" fileDeleted="onFileDeleted" fileRenamed="onFileRenamed" fileType="pdf,png,jpg,jpeg xls,xlsx"
+										uploadComplete="onUploadComplete" filenameLengthExceed="onFilenameLengthExceed" change="onAttachmentChange" sameFilenameAllowed="true"></UploadCollection>
+								</content>
+							</IconTabFilter>
+							<IconTabFilter id="salesTeam" visible="false" key="Parties Involved" icon="sap-icon://group" text="{i18n>SALES_TEAM}" iconColor="Neutral">
+								<content>
+									<!-- Extension point to add additional Sales Tab content -->
+									<core:ExtensionPoint name="opportunitysalesTabContentExtension"></core:ExtensionPoint>
+									<Table id="Sales_Team" noDataText="{i18n>NOPARTIES}" text="{i18n>TEAM}" items="{json>/OpportunitySalesTeamSet}">
+										<columns>
+											<!-- Extension point to add additional Sales Tab Columns -->
+											<core:ExtensionPoint name="opportunitysalesTabColumnExtension"></core:ExtensionPoint>
+											<Column id="salesTeamColumn1" width="15%" minScreenWidth="Small" demandPopin="true"/>
+											<Column id="salesTeamColumn2" width="65%" minScreenWidth="XLarge" demandPopin="true"/>
+											<Column id="salesTeamColumn3" width="10%" minScreenWidth="Desktop" demandPopin="true"
+												visible="{path: 'onlineOfflineMode>/bOffline', formatter : 'cus.crm.opportunity.util.Formatter.formatHideButtonInOfflineMode'}"/>
+											<Column id="salesTeamColumn4" width="10%" minScreenWidth="Desktop" demandPopin="true"
+												visible="{path: 'onlineOfflineMode>/bOffline', formatter : 'cus.crm.opportunity.util.Formatter.formatHideButtonInOfflineMode'}"/>
+										</columns>
+										<items>
+											<ColumnListItem id="salesTeamTemplate" items="{json>/OpportunitySalesTeamSet}">
+												<cells>
+													<!-- Extension point to add additional Sales Tab Cells -->
+													<core:ExtensionPoint name="opportunitySalesTabCellsExtension"></core:ExtensionPoint>
+													<ObjectHeader id="image" icon="{path :'json>ImgSrc',formatter : 'cus.crm.opportunity.util.Formatter.removeMarginInPhone'}"></ObjectHeader>
+													<layout:VerticalLayout id="layout" visible="{path : 'device>/isPhone',formatter : 'cus.crm.opportunity.util.Formatter.addLayoutPadding'}">
+														<layout:content>
+															<Link id="salesPartnerName"
+																text="{parts : [{path :'json>PartnerName'},{path : 'json>PartnerNumber'}],formatter : 'cus.crm.opportunity.util.Formatter.formatBusinessCardCaller'}"
+																items="{json>/OpportunitySalesTeamSet}">
+																<customData>
+																	<core:CustomData key="PartnerNumber" value="{json>PartnerNumber}"/>
+																	<core:CustomData key="PartnerFunctionCode" value="{json>PartnerFunctionCode}"/>
+																	<core:CustomData key="Image" value="{json>ImgSrc}"/>
+																</customData>
+															</Link>
+															<layout:HorizontalLayout id="hLayout">
+																<!-- <Label id="salespartnerFunction_Label" text="{i18n>PARTNER_FUNCTION}"
+															design="Bold"></Label> -->
+																<Text id="salespartnerFunction_Text"
+																	text="{path:'json>PartnerFunctionText' , formatter: 'cus.crm.opportunity.util.Formatter.salesteamplacement'}"></Text>
+															</layout:HorizontalLayout>
+															<ObjectStatus id="salespartnerMobile_Text" icon="sap-icon://outgoing-call" text="{json>MobileNumber}"
+																visible="{path : 'json>MobileNumber', formatter : 'cus.crm.opportunity.util.Formatter.formatMobileIconVisibility'}"></ObjectStatus>
+														</layout:content>
+													</layout:VerticalLayout>
+													<Button id="participantEditButton" type="Transparent" tooltip="{i18n>TOOLTIP_EDIT}" icon="sap-icon://edit" press="onPartnerFunctionChange"
+														visible="{path : 'json>PartnerFunctionCode',formatter : 'cus.crm.opportunity.util.Formatter.formatParticipant'}"></Button>
+													<Button id="participantDeleteButton" type="Transparent" tooltip="{i18n>TOOLTIP_DECLINE}" icon="sap-icon://decline"
+														press="onDeleteParticipant" visible="{path : 'json>PartnerFunctionCode',formatter : 'cus.crm.opportunity.util.Formatter.formatParticipant'}"></Button>
+												</cells>
+											</ColumnListItem>
+										</items>
+									</Table>
+								</content>
+							</IconTabFilter>
+							<IconTabFilter id="tab_competitor" icon="sap-icon://competitor" text="{i18n>COMPETITORS}" key="Competitors" iconColor="Neutral" count="">
+								<content>
+									<!-- Extension point to add additional Competitor Tab Content -->
+									<core:ExtensionPoint name="opportunityCompetitorTabContentExtension"></core:ExtensionPoint>
+									<List id="competitors" items="{json>/OpportunityCompetitors}" noDataText="{i18n>NOCOMPETITORS}">
+										<!-- Extension point to add additional competitor list content -->
+										<core:ExtensionPoint name="competitorListContentExtension"></core:ExtensionPoint>
+										<InputListItem id="Competitors"
+											label="{parts :[{path : 'json>PartnerName'},{path : 'json>PartnerNumber'}],formatter : 'cus.crm.opportunity.util.Formatter.formatPartnerName'}"
+											icon="{json>ImgSrc}">
+											<Button id="competitorDeleteButton" type="Transparent" tooltip="{i18n>TOOLTIP_DECLINE}" icon="sap-icon://decline" press="onDeleteCompetitor"></Button>
+										</InputListItem>
+									</List>
+								</content>
+							</IconTabFilter>
+							<IconTabFilter id="tab_transactionHistory" visible="false" icon="sap-icon://work-history" text="{i18n>TRANS_HISTORY}"
+								key="TransactionHistory" iconColor="Neutral" count="" tooltip="{i18n>TRANS_HISTORY}">
+								<content>
+									<!-- Extension point to add additional Doc History Content -->
+									<core:ExtensionPoint name="opportunityDocHistContentExtension"></core:ExtensionPoint>
+									<Table id="DocHistory_Tab" items="{json>/OpportunityDocHistory}" growing="true" growingThreshold="10" growingScrollToLoad="false">
+										<headerToolbar>
+											<Toolbar id="DocHistoryHeaderToolbar">
+												<Title
+													text="{parts:[{path:'i18n>DOC_HISTORY_HEADER'},{path:'json>/OpportunityDocHistoryNum'}], formatter:'cus.crm.opportunity.util.Formatter.formatTabHeader'}"/>
+											</Toolbar>
+										</headerToolbar>
+										<columns>
+											<!-- Extension point to add additional Doc History Tab Columns in 
+										the beginning -->
+											<core:ExtensionPoint name="opportunityDocHistTabColoumStartExtension"></core:ExtensionPoint>
+											<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+												<Text text="{i18n>TRANS_ID}"/>
+											</Column>
+											<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+												<Text text="{i18n>TRANS_TYPE}"/>
+											</Column>
+											<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+												<Text text="{i18n>TRANS_DESC}"/>
+											</Column>
+											<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+												<Text text="{i18n>CREATED_ON}"/>
+											</Column>
+											<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+												<Text text="{i18n>RELATIONSHIP}"/>
+											</Column>
+											<!-- Extension point to add additional Doc History Tab Columns at 
+										the beginning -->
+											<core:ExtensionPoint name="opportunityDocHistTabColoumEndExtension"></core:ExtensionPoint>
+										</columns>
+										<items>
+											<ColumnListItem>
+												<cells>
+													<!-- Extension point to add additional Doc History Tab Cells at 
+												the beginning -->
+													<core:ExtensionPoint name="opportunityDocHistTabCellsStartExtension"></core:ExtensionPoint>
+													<Link id="TransactionIDText" text="{json>TransactionId}" press="navigateDocHistory"
+														enabled="{path:'json>ObjectType' , formatter: 'cus.crm.opportunity.util.Formatter.FormatDocHistory'}"/>
+													<Text id="TransactionDesText" text="{json>TransTypeDesc}"/>
+													<Text id="DescriptionText" text="{json>Description}"/>
+													<Text id="CreatedOnText" text="{path: 'json>CreatedOn', type:'sap.ca.ui.model.type.Date', formatOptions:{style:'medium'}}"/>
+													<Text id="relationship" text="{json>Relationship}"/>
+													<!-- Extension point to add additional Doc History Tab Columns 
+												at the end -->
+													<core:ExtensionPoint name="opportunityDocHistTabCellsEndExtension"></core:ExtensionPoint>
+												</cells>
+											</ColumnListItem>
+										</items>
+									</Table>
+								</content>
+							</IconTabFilter>
+							<!-- Extension point to add additional Tabs at the end -->
+							<core:ExtensionPoint name="opportunityTabBarItemLastExtension"></core:ExtensionPoint>
+						</items>
+					</IconTabBar>
+					<!-- Extension point to add additional Tabs on the Right -->
+					<core:ExtensionPoint name="opportunityIcnTabBarRightExtension"></core:ExtensionPoint>
+				</ui:HorizontalLayout>
+			</ui:VerticalLayout>
+		</content>
+		<footer id="footer"></footer>
+	</Page>
+</core:View>

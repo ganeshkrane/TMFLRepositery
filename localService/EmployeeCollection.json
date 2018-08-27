@@ -1,0 +1,160 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('417836')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('417836')",
+				"type": "CRM_OPPORTUNITY.Employee"
+			},
+			"employeeID": "417836",
+			"firstName": "Thripura",
+			"lastName": "Tekuru",
+			"titleID": "0001",
+			"title": "Ms.",
+			"academicTitleID": "",
+			"academicTitle": "",
+			"fullName": "Thripura Tekuru",
+			"position": "",
+			"isDefaultEmployee": false,
+			"WorkAddress": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('417836')/WorkAddress"
+				}
+			},
+			"Company": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('417836')/Company"
+				}
+			},
+			"Photo": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('417836')/Photo"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('420441')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('420441')",
+				"type": "CRM_OPPORTUNITY.Employee"
+			},
+			"employeeID": "420441",
+			"firstName": "thripura",
+			"lastName": "tekuru",
+			"titleID": "0002",
+			"title": "Mr.",
+			"academicTitleID": "",
+			"academicTitle": "",
+			"fullName": "thripura tekuru",
+			"position": "",
+			"isDefaultEmployee": false,
+			"WorkAddress": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('420441')/WorkAddress"
+				}
+			},
+			"Company": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('420441')/Company"
+				}
+			},
+			"Photo": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('420441')/Photo"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('418863')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('418863')",
+				"type": "CRM_OPPORTUNITY.Employee"
+			},
+			"employeeID": "418863",
+			"firstName": "Christian",
+			"lastName": "Klumpp",
+			"titleID": "0002",
+			"title": "Mr.",
+			"academicTitleID": "",
+			"academicTitle": "",
+			"fullName": "Christian Klumpp",
+			"position": "",
+			"isDefaultEmployee": false,
+			"WorkAddress": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('418863')/WorkAddress"
+				}
+			},
+			"Company": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('418863')/Company"
+				}
+			},
+			"Photo": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('418863')/Photo"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('415221')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('415221')",
+				"type": "CRM_OPPORTUNITY.Employee"
+			},
+			"employeeID": "415221",
+			"firstName": "Christian",
+			"lastName": "Scheu",
+			"titleID": "",
+			"title": "",
+			"academicTitleID": "",
+			"academicTitle": "",
+			"fullName": "Christian Scheu",
+			"position": "",
+			"isDefaultEmployee": false,
+			"WorkAddress": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('415221')/WorkAddress"
+				}
+			},
+			"Company": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('415221')/Company"
+				}
+			},
+			"Photo": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('415221')/Photo"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('423461')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('423461')",
+				"type": "CRM_OPPORTUNITY.Employee"
+			},
+			"employeeID": "423461",
+			"firstName": "Christian",
+			"lastName": "Skrzypuletz",
+			"titleID": "0002",
+			"title": "Mr.",
+			"academicTitleID": "0003",
+			"academicTitle": "Professor Dr",
+			"fullName": "Prof. Dr. Christian Skrzypuletz",
+			"position": "",
+			"isDefaultEmployee": true,
+			"WorkAddress": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('423461')/WorkAddress"
+				}
+			},
+			"Company": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('423461')/Company"
+				}
+			},
+			"Photo": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EmployeeCollection('423461')/Photo"
+				}
+			}
+		}]
+	}
+}

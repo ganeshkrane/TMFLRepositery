@@ -1,0 +1,13 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EditAuthorizationCheck?ObjectGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6'",
+				"url": "/sap/opu/odata/sap/CRM_OPPORTUNITY/EditAuthorizationCheck?ObjectGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6'",
+				"type": "CRM_OPPORTUNITY.ActionResult"
+			},
+			"ActionSuccessful": "X",
+			"Message": ""
+		}]
+	}
+}

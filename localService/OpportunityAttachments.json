@@ -1,0 +1,21 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityAttachments(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',DocumentId='3440B5B173AE1EE593F8E1EBEBA5D15A',DocumentClass='CRM_P_ORD')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityAttachments(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',DocumentId='3440B5B173AE1EE593F8E1EBEBA5D15A',DocumentClass='CRM_P_ORD')",
+				"type": "CRM_OPPORTUNITY.OpportunityAttachment",
+				"content_type": "text/plain",
+				"media_src": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityAttachments(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',DocumentId='3440B5B173AE1EE593F8E1EBEBA5D15A',DocumentClass='CRM_P_ORD')/$value"
+			},
+			"HeaderGuid": "3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6",
+			"DocumentId": "3440B5B173AE1EE593F8E1EBEBA5D15A",
+			"DocumentClass": "CRM_P_ORD",
+			"Name": "Icon.txt",
+			"MimeType": "text/plain",
+			"CreatedBy": "Ben Li",
+			"CreatedAt": "\/Date(1441015208000)\/",
+			"Url": ""
+		}]
+	}
+}

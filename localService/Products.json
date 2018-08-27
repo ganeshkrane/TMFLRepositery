@@ -1,0 +1,101 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Products(guid'47C1ABEF-C70D-129E-E100-00000A421234')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Products(guid'47C1ABEF-C70D-129E-E100-00000A421234')",
+				"type": "CRM_OPPORTUNITY.Product"
+			},
+			"ProductGuid": "47C1ABEF-C70D-129E-E100-00000A421234",
+			"ProductDescription": "Preperation",
+			"ProductId": "1",
+			"BaseCategoryId": "SRV_BULD",
+			"BaseCategoryText": "Construction",
+			"Unit": "AU"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Products(guid'47C1ABF0-C70D-129E-E100-00000A421234')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Products(guid'47C1ABF0-C70D-129E-E100-00000A421234')",
+				"type": "CRM_OPPORTUNITY.Product"
+			},
+			"ProductGuid": "47C1ABF0-C70D-129E-E100-00000A421234",
+			"ProductDescription": "Basic service outdoor",
+			"ProductId": "2",
+			"BaseCategoryId": "SRV_BULD",
+			"BaseCategoryText": "Construction",
+			"Unit": "AU"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Products(guid'47C1ABF1-C70D-129E-E100-00000A421234')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Products(guid'47C1ABF1-C70D-129E-E100-00000A421234')",
+				"type": "CRM_OPPORTUNITY.Product"
+			},
+			"ProductGuid": "47C1ABF1-C70D-129E-E100-00000A421234",
+			"ProductDescription": "Additional work",
+			"ProductId": "3",
+			"BaseCategoryId": "SRV_BULD",
+			"BaseCategoryText": "Construction",
+			"Unit": "AU"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Products(guid'0EF843B4-BDD7-BB4E-964D-F8F0E33748AB')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Products(guid'0EF843B4-BDD7-BB4E-964D-F8F0E33748AB')",
+				"type": "CRM_OPPORTUNITY.Product"
+			},
+			"ProductGuid": "0EF843B4-BDD7-BB4E-964D-F8F0E33748AB",
+			"ProductDescription": "Tear down construction site",
+			"ProductId": "100001",
+			"BaseCategoryId": "SRV_SERV",
+			"BaseCategoryText": "Service: purchasing",
+			"Unit": "AU"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Products(guid'3F11F360-AF5B-C140-BE58-C13EFDF70D61')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Products(guid'3F11F360-AF5B-C140-BE58-C13EFDF70D61')",
+				"type": "CRM_OPPORTUNITY.Product"
+			},
+			"ProductGuid": "3F11F360-AF5B-C140-BE58-C13EFDF70D61",
+			"ProductDescription": "Transport LP steel pipe w/o ZMAK",
+			"ProductId": "100002",
+			"BaseCategoryId": "SRV_SERV",
+			"BaseCategoryText": "Service: purchasing",
+			"Unit": "M"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Products(guid'256CC3DA-F2B2-2B41-A832-97B628817B6A')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Products(guid'256CC3DA-F2B2-2B41-A832-97B628817B6A')",
+				"type": "CRM_OPPORTUNITY.Product"
+			},
+			"ProductGuid": "256CC3DA-F2B2-2B41-A832-97B628817B6A",
+			"ProductDescription": "Transport LP plastic pipe",
+			"ProductId": "100006",
+			"BaseCategoryId": "SRV_SERV",
+			"BaseCategoryText": "Service: purchasing",
+			"Unit": "M"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Products(guid'3EB756F4-9F37-BB40-AD41-70BE27A5C2AC')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Products(guid'3EB756F4-9F37-BB40-AD41-70BE27A5C2AC')",
+				"type": "CRM_OPPORTUNITY.Product"
+			},
+			"ProductGuid": "3EB756F4-9F37-BB40-AD41-70BE27A5C2AC",
+			"ProductDescription": "Transport LP prestressed concrete pipe",
+			"ProductId": "100007",
+			"BaseCategoryId": "SRV_SERV",
+			"BaseCategoryText": "Service: purchasing",
+			"Unit": "M"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Products(guid'3EA83BAC-8BD6-CD49-82CB-34A5308905A0')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/Products(guid'3EA83BAC-8BD6-CD49-82CB-34A5308905A0')",
+				"type": "CRM_OPPORTUNITY.Product"
+			},
+			"ProductGuid": "3EA83BAC-8BD6-CD49-82CB-34A5308905A0",
+			"ProductDescription": "Transp. WL duct.cast iron pipe w/ZMAK+PE",
+			"ProductId": "100011",
+			"BaseCategoryId": "SRV_SERV",
+			"BaseCategoryText": "Service: purchasing",
+			"Unit": "M"
+		}]
+	}
+}

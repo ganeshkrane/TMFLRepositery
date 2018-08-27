@@ -1,0 +1,48 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:l="sap.ui.layout">
+	<Dialog title="Account Search" contentWidth="720px" contentHeight="720px" class="DialogPadding">
+		<!--<subHeader>-->
+		<!--	<Bar>-->
+		<!--		<contentLeft>-->
+		<!--			<SearchField placeholder="{i18n>SEARCH}" liveChange="liveSearchAccount" search="searchAccount"></SearchField>-->
+		<!--		</contentLeft>-->
+		<!--	</Bar>-->
+		<!--</subHeader>-->
+		<content>
+			<l:Grid defaultSpan="L6 M6 S12" class="gridBG">
+				<l:content>
+					<Input id="firstName" placeholder="First Name/ Name1" liveChange="namechnge"></Input>
+					<Input id="lastName" placeholder="Last Name/ Name2" liveChange="namechnge"></Input>
+					<Input id="mobNum" value="" placeholder="Customer Mobile Number"  maxLength="10" liveChange="MoNumchnge"></Input>
+					<Input id="contractNumber" type="Text" placeholder="Contract Number" liveChange="Numchnge"></Input>
+					<Input id="rcNum" value="" type="Text" placeholder="RC Number" liveChange="Numchnge"></Input>
+					<Input id="chassisNumber" type="Text" placeholder="Chassis Number" liveChange="Numchnge"></Input>
+					<Input id="engineNumber" type="Text" placeholder="Engine Number" liveChange="Numchnge"></Input>
+					<Input id="partnerNumber" type="Text" placeholder="Business Partner" liveChange="Numchnge"></Input>
+					<Button id="bpSearch" text="Search" press="onBPSearch" ></Button>
+				</l:content>
+			</l:Grid>
+			<List id="accountList" class="sapUiTinyMarginTop" mode="SingleSelectMaster" selectionChange="setAccount">
+				<items>
+					<ObjectListItem></ObjectListItem>
+				</items>
+			</List>
+			<!--<List id="accountList" noDataText="{i18n>NO_DATA_TEXT}" mode="SingleSelectMaster" selectionChange="setAccount"
+				growing="true" growingScrollToLoad="true">
+				<items>
+				<ObjectListItem title="{parts : [{path: 'FullName'},{path: 'NameFirst'},{path: 'Partner'}],formatter : 'cus.crm.opportunity.util.Formatter.formatAccountF4Title'}">
+						<attributes>
+							<ObjectAttribute
+								text="{Partner} {City} {Country}"></ObjectAttribute>
+						</attributes>  
+					</ObjectListItem>
+				</items>
+			</List>-->
+			<!--<List id="tmfl_Need_BankAndRepayment_AccCB" items="{path: '/ZBPF4SearchSet', templateShareable: true}" class="sapUiTinyMarginTop">-->
+			<!--	<core:Item key="{Partner}" text="{NameFirst} ({NameLast})"/>-->
+			<!--</List>-->
+		</content>
+		<beginButton>
+			<Button text="{i18n>CANCEL}" press="closeAccountF4"></Button>
+		</beginButton>
+	</Dialog>
+</core:FragmentDefinition>

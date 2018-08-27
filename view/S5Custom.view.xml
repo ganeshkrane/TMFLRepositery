@@ -1,0 +1,452 @@
+<!--Copyright (C) 2009-2017 SAP SE or an SAP affiliate company. All rights reserved.-->
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:la="sap.ui.layout" xmlns:ca="sap.ca.ui" xmlns="sap.m"
+	xmlns:form="sap.ui.layout.form" xmlns:layout="sap.ui.layout" controllerName="cus.crm.opportunity.view.S5"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:custom="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+	<Page id="createPage" title="{i18n>CREATE_TITLE}" class="sapUiFioriObjectPage" showNavButton="true" navButtonPress="toDetail"
+		enableScrolling="true">
+		<content>
+			<la:form.SimpleForm id="custForm1" minWidth="1024" maxContainerCols="2" editable="true" layout="ResponsiveGridLayout"
+				title="{i18n>CUSTOMER_DATA}" labelSpanL="3" labelSpanM="3" emptySpanL="3" emptySpanM="3" columnsL="1" columnsM="1" class="editableForm">
+				<la:content>
+					<Label text="Loan Type" visible="false"></Label>
+					<ComboBox id="loanType" visible="false" items="{custJson>/ZsorgF4Set/results}" selectedKey="{custJson>/Sorg}"
+						selectionChange="onComboChanged">
+						<items>
+							<core:Item key="{custJson>Short}" text="{custJson>Stext}"></core:Item>
+						</items>
+					</ComboBox>
+					<Label text="Existing BP"></Label>
+					<Switch state="true" customTextOff="No" customTextOn="Yes" id="CustSw_id" type="Default" change="_onExistingCustSwich"/>
+					<Label text="Lead Type" required="true"></Label>
+					<ComboBox id="leadType" items="{custJson>/ZloanTypeF4Set/results}" selectionChange="onComboChanged" selectedKey="">
+						<items>
+							<core:Item key="{custJson>Attribute}" text="{custJson>Attributetxt}"></core:Item>
+						</items>
+					</ComboBox>
+					<Label id="cusLblCustomer" text="Bp No./ Name" required="true"></Label>
+					<Input id="customer" liveChange="onAccountInputFieldChanged" value="{account}" suggestionItemSelected="onAccountSuggestItemSelected"
+						valueHelpRequest="showAccountF4" valueHelpOnly="false" showValueHelp="true"></Input>
+					<Label text="Applicant Type" required="true"></Label>
+					<ComboBox id="applicantType" visible="false" selectedKey="{custJson>/BPTYPE}" selectionChange="onApplicantChanged">
+						<items>
+							<core:Item key="1" text="Individual"></core:Item>
+							<core:Item key="2" text="Corporate"></core:Item>
+							<core:Item key="3" text="Group"></core:Item>
+						</items>
+					</ComboBox>
+					<Label text="Customer Name" id="customerName" required="true"></Label>
+					<Input id="cusFirstName" value="{custJson>/NAMEFIRST}" placeholder="First Name" liveChange="onMandatoryFieldChanged">
+						<layoutData>
+							<layout:GridData span="XL1 L2 M2 S12"/>
+						</layoutData>
+					</Input>
+					<Input id="cusMiddleName" value="{custJson>/NAMEMIDDLE}" placeholder="Middle Name" liveChange="onMandatoryFieldChanged"></Input>
+					<Input id="cusLastName" value="{custJson>/NAMELAST}" placeholder="Last Name" liveChange="onMandatoryFieldChanged"></Input>
+					<Label text="Name 1" id="Name1" visible="false" required="true"></Label>
+					<Input id="FirstName" visible="false" value="{custJson>/NAMEFIRST}" placeholder="First Name" liveChange="onMandatoryFieldChanged"></Input>
+					<Label text="Name 2" id="Name2" visible="false"></Label>
+					<Input id="LastName" visible="false" value="{custJson>/NAMELAST}" placeholder="Last Name" class="capitalize"
+						liveChange="onMandatoryFieldChanged"></Input>
+					<Label text="Address Line1" required="true"></Label>
+					<Input id="cusAdd1" value="{custJson>/ADDRESS1}" liveChange="onMandatoryFieldChanged" maxLength="40"></Input>
+					<Label text="Address Line2" required="true"></Label>
+					<Input id="cusAdd2" value="{custJson>/ADDRESS2}" liveChange="onMandatoryFieldChanged" maxLength="40"></Input>
+					<Label text="Landmark" required="true"></Label>
+					<Input id="cusAdd3" value="{custJson>/ADDRESS3}" liveChange="onMandatoryFieldChanged" maxLength="40"></Input>
+					<Label text="Pin code" required="true"></Label>
+					<Input id="cusPinCode" maxLength="6" value="{custJson>/POST_CODE1}" change="onPostalChange" liveChange="onMandatoryFieldChanged">
+						<layoutData>
+							<layout:GridData span="L2 M2 S12"/>
+						</layoutData>
+					</Input>
+					<Input editable="false" id="cusDistrict" placeholder="District" value="{custJson>/City2}" enabled="false"></Input>
+					<Label text="City/State" required="true"></Label>
+					<ComboBox id="cusCity" enabled="false" placeholder="City" selectionChange="onComboCityChanged" selectedKey="">
+						<layoutData>
+							<layout:GridData span="L2 M2 S12"/>
+						</layoutData>
+					</ComboBox>
+					<Input editable="false" id="cusState" placeholder="Region" value="{custJson>/REGION}" enabled="false"></Input>
+					<Label text="Cell No" required="true"></Label>
+					<Input value="+91 " id="mob" enabled="false"></Input>
+					<Input id="cusMobile" maxLength="10" visible="true" value="{custJson>/MOBILE}" liveChange="onMandatoryFieldChanged">
+						<layoutData>
+							<layout:GridData span="L4 M4 S6"/>
+						</layoutData>
+					</Input>
+					<Label text="Landline No"></Label>
+					<Input id="cusStd" placeholder="STD Code" value="{custJson>/TelExtens}" liveChange="onMandatoryFieldChanged" visible="true" maxLength="5"></Input>
+					<Input id="cusPhone" value="{custJson>/PHONE}" liveChange="onMandatoryFieldChanged" visible="true" maxLength="10">
+						<layoutData>
+							<layout:GridData span="L3 M3 S6"/>
+						</layoutData>
+					</Input>
+					<Label text="Owning existing Tata Vehicles" required="true"></Label>
+					<ComboBox id="tmlCustomer" visible="true" selectedKey="{custJson>/Ztml}" value="" selectionChange="onComboChanged">
+						<items>
+							<core:Item key="Y" text="Yes"></core:Item>
+							<core:Item key="N" text="No"></core:Item>
+						</items>
+					</ComboBox>
+					<Label text="Fleet Size" required="true"></Label>
+					<ComboBox id="cusFleetSize" items="{custJson>/fleetSize/results}" selectionChange="onComboChanged" selectedKey="{custJson>/FLEETSIZE}">
+						<items>
+							<core:Item key="{custJson>fSize}" text="{custJson>fSize}"></core:Item>
+						</items>
+						<layoutData>
+							<layout:GridData span="XL1 L2 M2 S4"/>
+						</layoutData>
+					</ComboBox>
+					<Label text="Cust. Segment" required="true"></Label>
+					<ComboBox id="cusSeg" items="{custJson>/Zcustseg/results}" selectedKey="{custJson>/CUSTSEGMENT}" selectionChange="onComboChanged">
+						<items>
+							<core:Item key="{custJson>Zzcustseg}" text="{custJson>DESC}"></core:Item>
+						</items>
+					</ComboBox>
+					<Label text="Fleet Application" required="true"></Label>
+					<ComboBox id="cusFleetApp" items="{custJson>/ZFLEET_APP_MASTS/results}" selectedKey="{custJson>/FLEETAPPL}" selectionChange="onComboChanged">
+						<items>
+							<core:Item key="{custJson>Fleetapp}" text="{custJson>Fleetapp}"></core:Item>
+						</items>
+					</ComboBox>
+					<Label text="Branch" required="true"></Label>
+					<ComboBox id="cusDealerCVPV" items="{custJson>/ZsalesofficeF4Set/results}" selectionChange="onBranchChanged"
+						selectedKey="{custJson>/Branch}">
+						<items>
+							<core:Item key="{custJson>Short}" text="{custJson>Stext}"></core:Item>
+						</items>
+						<layoutData>
+							<layout:GridData span="L2 M2 S12"/>
+						</layoutData>
+					</ComboBox>
+					<!--	<Label text="Distribution Channel"></Label>-->
+					<ComboBox id="cusDistchan" items="{custJson>/Zcrmc_distchanF4Set/results}" placeholder="Distribution Channel"
+						selectionChange="onDistchnChanged" selectedKey="{custJson>/Zchannel}">
+						<items>
+							<core:Item key="{custJson>Distchan}" text="{custJson>Description}"></core:Item>
+						</items>
+					</ComboBox>
+					<Label text="Sourcing Channel" required="true"></Label>
+					<ComboBox id="cusDealerSelect" items="{custJson>/ZBU_DESCRIPSet/results}" selectedKey="{custJson>/DEALERNAME}"
+						selectionChange="onComboChanged">
+						<items>
+							<core:Item key="{custJson>Partner}" text="{custJson>BuDescrip}"></core:Item>
+						</items>
+					</ComboBox>
+					<Label text="Dealer Location" required="true"></Label>
+					<Input id="cusDealerLocation" value="{custJson>/DEALERLOC}" liveChange="onMandatoryFieldChanged"></Input>
+				</la:content>
+			</la:form.SimpleForm>
+			<Table id="idProdTable" headerText="{i18n>CURR_REQ_DATA}" noDataText="Please select the Vehicle" inset="false" growing="true"
+				growingScrollToLoad="true" visible="true">
+				<headerToolbar>
+					<Toolbar id="productBasketToolbar_S411">
+						<Title id="productLabel_S411" text="{i18n>PRODUCT_BASKET}"/>
+						<ToolbarSpacer id="productSpacer_S411"></ToolbarSpacer>
+						<Button id="ProductButton11" icon="sap-icon://add" enabled="false" press="addProductTableRow" tooltip="{i18n>ADD}"></Button>
+					</Toolbar>
+				</headerToolbar>
+				<columns>
+					<Column hAlign="Left">
+						<Text text="Product"/>
+					</Column>
+					<Column hAlign="Left">
+						<Text text="Variant"/>
+					</Column>
+					<Column hAlign="Left">
+						<Text text="Quantity"/>
+					</Column>
+					<Column width="2em"></Column>
+				</columns>
+				<items>
+					<ColumnListItem id="idProdTableColumnListItem">
+						<cells>
+							<ComboBox selectionChange="onProductChange"></ComboBox>
+							<ComboBox selectionChange="onComboCityChanged"></ComboBox>
+							<Input liveChange="onComboChanged" id="Qty_Id"/>
+							<Button icon="sap-icon://sys-cancel-2" tooltip="{i18n>CANCEL}" type="Transparent" press="deleteProductTableRow"></Button>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+			<Table id="busiAggrements_tblId" headerText="{i18n>BUSINESS_AGREEMENT_BASKET}" noDataText="No Business Agreement No...." inset="false"
+				mode="MultiSelect" visible="false">
+				<headerToolbar>
+					<Toolbar >
+						<Title  text="{i18n>BUSINESS_AGREEMENT_BASKET}"/>
+						<ToolbarSpacer/>
+						<Button id="addBusiAgreementNo_btnId" icon="sap-icon://add" enabled="false" press="handelAddBusiAgreementTblRow" tooltip="{i18n>ADD}"/>
+					</Toolbar>
+				</headerToolbar>
+				<columns>
+					<Column hAlign="Left">
+						<ObjectIdentifier title="Agreement No."/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem>
+						<Input type="text" valueHelpOnly="true" showValueHelp="true" valueHelpRequest="handleBusinessAgreementNo"/>
+					</ColumnListItem>
+				</items>
+			</Table>
+			<la:form.SimpleForm id="custForm2" minWidth="1024" maxContainerCols="2" editable="true" layout="ResponsiveGridLayout" labelSpanL="3"
+				labelSpanM="3" emptySpanL="4" emptySpanM="4" columnsL="1" columnsM="1" class="editableForm">
+				<la:content>
+					<Label text="Lead Status" required="true"></Label>
+					<Select id="statusdropdown" items="{json>/UserStatuses}" class="pos_input" change="statusdropdownChnge">
+						<items>
+							<core:Item key="{json>UserStatusCode}" text="{json>UserStatusText}"></core:Item>
+						</items>
+					</Select>
+					<Label text="Next Followup" required="true"/>
+					<DatePicker id="cusDatePickerNextFollowup"
+						value="{ path: 'custJson>/NEXTFOLLOWUP' , type: 'sap.ui.model.type.Date',formatOptions: {pattern: 'dd.MM.yyyy', strictParsing: true , UTC: true}}"
+						change="onMandatoryFieldChanged"></DatePicker>
+					<Label text="Tentative Purchase Date" required="true"/>
+					<DatePicker id="cusDatePickerTentative"
+						value="{path: 'custJson>/TENTIVEDATE', type: 'sap.ui.model.type.Date', formatOptions: {pattern: 'dd.MM.yyyy', strictParsing: true , UTC: true}}"
+						change="onMandatoryFieldChanged"></DatePicker>
+					<Label text="Visit Date" required="true"/>
+					<DatePicker id="cusDatePickerVisit"
+						value="{path: 'custJson>/VISITDATE' , type: 'sap.ui.model.type.Date', formatOptions: {pattern: 'dd.MM.yyyy', strictParsing: true , UTC: true}}"
+						change="onMandatoryFieldChanged"></DatePicker>
+					<Label text="Remark"/>
+					<TextArea id="cusRemark" rows="5" liveChange="onComboChanged" value="{custJson>/LeadComment}"></TextArea>
+				</la:content>
+			</la:form.SimpleForm>
+			<!-- Extension point to add additional opportunity create content on top -->
+			<core:ExtensionPoint name="opportunityCreateContentTopExtension"></core:ExtensionPoint>
+			<la:form.SimpleForm id="form1" minWidth="1024" title="{i18n>GENERAL_DATA}" maxContainerCols="2" editable="true"
+				layout="ResponsiveGridLayout" labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4" columnsL="1" columnsM="1" class="editableForm"
+				visible="false">
+				<la:content>
+					<Label text="{i18n>TYPE}" id="laTypeInput"></Label>
+					<Text id="TxtTypeInput"/>
+					<Label id="opportunityName_Label" text="{i18n>NAME}" required="true"></Label>
+					<Input id="desc" value="" maxLength="40" placeholder="{i18n>MAX_CHARS}" liveChange="descriptionChanged"></Input>
+					<Label id="opportunityAccount_Label" text="{i18n>ACCOUNT}" required="true"></Label>
+					<Input id="customer1" liveChange="onAccountInputFieldChanged" value="{account}" suggestionItemSelected="onAccountSuggestItemSelected"
+						valueHelpRequest="showAccountF4" valueHelpOnly="false" showValueHelp="true"></Input>
+					<Label id="opportunityContact_Label" text="{i18n>MAIN_CONTACT}"></Label>
+					<Input id="inputMainContact" liveChange="onContactInputFieldChanged" value="{contact}" suggestionItemSelected="onContactSuggestItemSelected"
+						valueHelpRequest="showContactF4" valueHelpOnly="false" showValueHelp="true"></Input>
+					<Label id="empRespLabel_S5" text="{i18n>S4.FORM.EMPLOYEE_RESPONSIBLE}"
+						visible="{path : 'versioning>/BackendSchemaVersion', formatter : 'cus.crm.opportunity.util.Formatter.formatEmployeeRespField'}"></Label>
+					<Input id="inputEmpResponsible_S5"
+						visible="{path : 'versioning>/BackendSchemaVersion',formatter : 'cus.crm.opportunity.util.Formatter.formatEmployeeRespField'}"
+						liveChange="onEmployeeInputFieldChanged" value="{employee}" suggestionItemSelected="onEmployeeSuggestItemSelected"
+						valueHelpRequest="showEmployeeF4" valueHelpOnly="false" showValueHelp="true"></Input>
+					<Label id="opportunityPriority_Label" text="{i18n>PRIORITY}"></Label>
+					<ComboBox id="priority_val" items="{json>/Priorities}" class="pos_input">
+						<items>
+							<core:Item key="{json>PriorityCode}" text="{json>PriorityText}"></core:Item>
+						</items>
+					</ComboBox>
+				</la:content>
+			</la:form.SimpleForm>
+			<la:form.SimpleForm visible="false" id="form2" minWidth="1024" title="{i18n>FORECAST_TITLE}" maxContainerCols="2" editable="true"
+				layout="ResponsiveGridLayout" labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4" columnsL="1" columnsM="1" class="editableForm">
+				<Label id="opportunityWhtdVolume_Label" text="{i18n>UNWEIGHTED_VOLUME}"></Label>
+				<Input id="volume" value="" maxLength="13" liveChange="volumeChanged"></Input>
+				<Input id="currency" value="{curr}" placeholder="{i18n>CURRENCY}" showValueHelp="true" showSuggestion="true"
+					valueHelpRequest="showCurrencyF4" liveChange="onCurrencyInputFieldChanged" suggestionItemSelected="onCurrencySuggestItemSelected"
+					valueHelpOnly="false" suggestionItems="{json>/Currencies}">
+					<suggestionItems>
+						<core:Item text="{json>CurrencyKey}"></core:Item>
+					</suggestionItems>
+				</Input>
+				<Label id="forecastLabel_S5" text="{i18n>FORECAST}"></Label>
+				<Switch enabled="true" id="Switch"></Switch>
+			</la:form.SimpleForm>
+			<la:form.SimpleForm visible="false" id="form3" minWidth="1024" title="{i18n>DATES}" maxContainerCols="2" editable="true"
+				layout="ResponsiveGridLayout" labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4" columnsL="1" columnsM="1" class="editableForm">
+				<la:content>
+					<Label id="opportunityStrtDate_Label" text="{i18n>START_DATE}"></Label>
+					<DatePicker id="datePickerStartDate" displayFormat="medium"></DatePicker>
+					<Label id="opportunityClsDate_Label" text="{i18n>CLOSE_DATE}" required="true"></Label>
+					<DatePicker id="datePickerCloseDate" displayFormat="medium" change="enableSaveBtn"></DatePicker>
+				</la:content>
+			</la:form.SimpleForm>
+			<la:form.SimpleForm visible="false" id="form4" minWidth="1024" title="{i18n>SALES_CYCLE}" maxContainerCols="2" editable="true"
+				layout="ResponsiveGridLayout" labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4" columnsL="1" columnsM="1" class="editableForm">
+				<la:content>
+					<Label id="opportunityStatus_Label" text="{i18n>STATUS}"></Label>
+					<ComboBox id="statusdropdown1" items="{json>/UserStatuses}" class="pos_input">
+						<items>
+							<core:Item key="{json>UserStatusCode}" text="{json>UserStatusText}"></core:Item>
+						</items>
+					</ComboBox>
+					<Label id="opportunityStage_Label" text="{i18n>STAGE}"></Label>
+					<ComboBox id="stagedropdown" items="{json>/SalesStages}" class="pos_input">
+						<items>
+							<core:Item key="{json>SalesStageCode}" text="{json>SalesStageDescription}"></core:Item>
+						</items>
+					</ComboBox>
+					<Label id="opportunityCos_Label" text="{i18n>CHANCE_OF_SUCCESS_%}"></Label>
+					<Input id="chanceofSuccess" value="" liveChange="chanceOfSuccessChanged"></Input>
+				</la:content>
+			</la:form.SimpleForm>
+			<la:form.SimpleForm visible="false">
+				<la:content>
+					<Label id="tit1" text=""></Label>
+				</la:content>
+			</la:form.SimpleForm>
+			<!-- Sales Area -->
+			<!-- Extension point to add additional sales Area tab content on top -->
+			<core:ExtensionPoint name="salesAreaCreateContentTopExtension"></core:ExtensionPoint>
+			<Panel id="hide" visible="false" class="sapUiFormEdit-CTX divisionPadding" title="{i18n>SALES_AREA}">
+				<headerToolbar>
+					<Toolbar>
+						<Title text="{i18n>SALES_AREA}"/>
+					</Toolbar>
+				</headerToolbar>
+				<content>
+					<la:form.SimpleForm id="salesorganization_id" minWidth="1024" maxContainerCols="2" editable="true" layout="ResponsiveGridLayout"
+						labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4" columnsL="1" columnsM="1" class="editableForm">
+						<la:content>
+							<Text id="salesorganization_Text"></Text>
+							<Label id="salesorganization_label" text="{i18n>SALES_ORGANIZATION}"
+								visible="{parts: [{path :'json>/SalesOrganizationDescription'},{path : 'json>/SalesOrganization'}], formatter : 'cus.crm.opportunity.util.Formatter.formatSalesOrganization'}"></Label>
+							<Input id="salesOrganization"
+								visible="{parts: [{path :'json>/SalesOrganizationDescription'},{path : 'json>/SalesOrganization'}], formatter : 'cus.crm.opportunity.util.Formatter.formatSalesOrganization'}"
+								value="{salesArea}" suggestionItemSelected="showSalesAreaF4" valueHelpRequest="showSalesAreaF4" valueHelpOnly="false" showValueHelp="true"></Input>
+						</la:content>
+					</la:form.SimpleForm>
+					<la:form.SimpleForm id="distributionchannel_id" minWidth="1024" maxContainerCols="2" editable="false" layout="ResponsiveGridLayout"
+						labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4" columnsL="1" columnsM="1" class="editableForm">
+						<la:content>
+							<Label id="distributionchannel_label" text="{i18n>DISTRIBUTION_CHANNEL}"></Label>
+							<Text id="distributionchannel_Text"></Text>
+						</la:content>
+					</la:form.SimpleForm>
+					<la:form.SimpleForm id="division_id" minWidth="1024" maxContainerCols="2" editable="false" layout="ResponsiveGridLayout" labelSpanL="3"
+						labelSpanM="3" emptySpanL="4" emptySpanM="4" columnsL="1" columnsM="1" class="editableForm">
+						<la:content>
+							<Label id="division_label" text="{i18n>DIVISION}"></Label>
+							<Text id="division_Text"></Text>
+						</la:content>
+					</la:form.SimpleForm>
+					<core:ExtensionPoint name="salesAreaCreateContentBottomExtension"></core:ExtensionPoint>
+				</content>
+			</Panel>
+			<core:ExtensionPoint name="opportunityCreateContentBottomExtension"></core:ExtensionPoint>
+			<Table visible="false" id="productBasket" items="{json>/Products}" noDataText="{i18n>EMPTY_PROD}" headerText="{i18n>PRODUCT_BASKET}"
+				headerDesign="Standard" class="table_resize divisionPadding">
+				<headerToolbar>
+					<Toolbar id="productToolbar_S5">
+						<Title text="{i18n>PRODUCT_BASKET}"/>
+						<ToolbarSpacer id="productSpacer_S5"></ToolbarSpacer>
+						<Button id="opportunityAddProd_Button" icon="sap-icon://add" tooltip="{i18n>ADD}" press="onAddProduct"></Button>
+					</Toolbar>
+				</headerToolbar>
+				<columns>
+					<!-- Extension point to add additional product tab column -->
+					<core:ExtensionPoint name="opportunityProductTabColoumExtension"></core:ExtensionPoint>
+					<Column id="basketColumn1_S5" vAlign="Middle" width="35%">
+						<header>
+							<Label id="opportunityProdBasketProd_Label" text="{i18n>PRODUCT}" design="Bold"></Label>
+						</header>
+					</Column>
+					<Column id="basketColumn2_S5" vAlign="Middle" width="20%" hAlign="Right">
+						<header>
+							<Label id="opportunityProdBasketQuant_Label" text="{i18n>QUANTITY}" design="Bold"></Label>
+						</header>
+					</Column>
+					<Column id="basketColumn3_S5" vAlign="Middle" width="15%" minScreenWidth="Tablet" demandPopin="true" hAlign="Right">
+						<header>
+							<Label id="unitPriceLabel_S5" text="{i18n>UNIT_PRICE}" design="Bold"></Label>
+						</header>
+					</Column>
+					<Column id="basketColumn4_S5" vAlign="Middle" width="20%" hAlign="Right" minScreenWidth="Tablet" demandPopin="true">
+						<header>
+							<Label id="vol_S5" text="{i18n>VOLUME}" design="Bold"></Label>
+						</header>
+					</Column>
+					<Column id="basketColumn5_S5" vAlign="Middle" width="10%" minScreenWidth="Tablet" hAlign="Right" demandPopin="true">
+						<header></header>
+					</Column>
+					<!-- Extension point to add additional product tab column at the end -->
+					<core:ExtensionPoint name="opportunityProductTabColoumendExtension"></core:ExtensionPoint>
+				</columns>
+				<items>
+					<ColumnListItem id="basketTemplate_S5">
+						<cells>
+							<!-- Extension point to add additional opportunity create product 
+								table cells -->
+							<core:ExtensionPoint name="opportunityProductTabCellsExtension"></core:ExtensionPoint>
+							<la:VerticalLayout id="productBasketVLayout_S5" hAlign="Left">
+								<la:content>
+									<Label id="prodname" design="Bold" text="{path : 'json>ProductGuid', formatter : 'cus.crm.opportunity.util.Formatter.formatProductName'}"></Label>
+									<Label id="productClassificationValue_S5"
+										text="{path: 'json>ProductGuid',formatter : 'cus.crm.opportunity.util.Formatter.formatProdClassification'}"></Label>
+								</la:content>
+							</la:VerticalLayout>
+							<la:HorizontalLayout id="basketHLayout_S5" width="150px" custom:field="QUANTITY">
+								<la:content>
+									<Input width="75px" id="qty" value="{json>Quantity}" liveChange="quantityChanged" class="numberRTL"></Input>
+									<ObjectNumber custom:field="QUANTITY" id="unit1" number="" numberUnit="{json>Unit}" class="UnitPadding"/>
+								</la:content>
+							</la:HorizontalLayout>
+							<ObjectNumber custom:field="NETVALUE" id="netValue_S5" number="{json>NetValue}" numberUnit="{json>CurrencyCode}"/>
+							<Input width="75px" id="expectedNetValue_S5" value="{json>TotalExpectedNetValue}" editable="true" liveChange="volumeChanged"
+								class="numberRTL" maxLength="13"></Input>
+							<Button id="cancel" icon="sap-icon://sys-cancel-2" type="Transparent" tooltip="{i18n>DELETE_ITEM}" press="deleteProduct"></Button>
+							<!-- Extension point to add additional opportunity create product 
+								table cells at the end -->
+							<core:ExtensionPoint name="opportunityProductTabCellsEndExtension"></core:ExtensionPoint>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+			<Table id="partnerBasket" items="{json>/SalesTeam}" visible="false" noDataText="{i18n>EMPTY_PARTNER}" headerText="{i18n>PARTNER_BASKET}"
+				headerDesign="Standard" class="table_resize divisionPadding">
+				<headerToolbar>
+					<Toolbar id="partnerToolbar_S5">
+						<Title text="{i18n>PARTNER_BASKET}"/>
+						<ToolbarSpacer id="partnerSpacer_S5"></ToolbarSpacer>
+						<!--<Button id="opportunityAddPartnr_Button" icon="sap-icon://add" tooltip="{i18n>ADD}" press="onShowParticipants"></Button>-->
+					</Toolbar>
+				</headerToolbar>
+				<columns>
+					<!-- Extension point to add additional opportunity product tab column -->
+					<core:ExtensionPoint name="opportunityPartnerTabColoumExtension"></core:ExtensionPoint>
+					<Column id="basketColumn1_S5_P" vAlign="Middle">
+						<header>
+							<Label id="opportunityPartnerBasketId_Label" text="{i18n>PARTNER}" design="Bold"></Label>
+						</header>
+					</Column>
+					<Column id="basketColumn2_S5_P" vAlign="Middle">
+						<header>
+							<Label id="opportunityPartnerBasketName_Label" text="{i18n>PARTNER_FUNCTION}" design="Bold"></Label>
+						</header>
+					</Column>
+					<!-- Extension point to add additional opportunity partner tab column 
+						at the end -->
+					<core:ExtensionPoint name="opportunityPartnerTabColoumendExtension"></core:ExtensionPoint>
+				</columns>
+				<items id="partnerslistitem">
+					<ColumnListItem id="basketTemplate_S5_P">
+						<cells>
+							<!-- Extension point to add additional opportunity edit product table 
+								cells -->
+							<core:ExtensionPoint name="opportunityPartnerTabCellsExtension"></core:ExtensionPoint>
+							<la:VerticalLayout id="partnerBasketVLayout_S5" hAlign="Left">
+								<la:content>
+									<Label id="partnerId" design="Bold" text="{json>Name}"></Label>
+								</la:content>
+							</la:VerticalLayout>
+							<la:VerticalLayout id="partnerBasketVLayout2_S5" hAlign="Left">
+								<la:content>
+									<Label id="partnerDescription" text="{json>PartnerFunction}"></Label>
+								</la:content>
+							</la:VerticalLayout>
+							<!-- Extension point to add additional opportunity create product 
+								table cells at the end -->
+							<core:ExtensionPoint name="opportunityPartnerTabCellsEndExtension"></core:ExtensionPoint>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</content>
+	</Page>
+</core:View>

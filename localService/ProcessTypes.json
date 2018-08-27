@@ -1,0 +1,41 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ProcessTypes(LanguageCode='EN',ProcessTypeCode='OPPT')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ProcessTypes(LanguageCode='EN',ProcessTypeCode='OPPT')",
+				"type": "CRM_OPPORTUNITY.ProcessType"
+			},
+			"LanguageCode": "EN",
+			"ProcessTypeCode": "OPPT",
+			"Description": "Opportunity Default"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ProcessTypes(LanguageCode='EN',ProcessTypeCode='OPPO')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ProcessTypes(LanguageCode='EN',ProcessTypeCode='OPPO')",
+				"type": "CRM_OPPORTUNITY.ProcessType"
+			},
+			"LanguageCode": "EN",
+			"ProcessTypeCode": "OPPO",
+			"Description": "Opportunity Channel Manager"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ProcessTypes(LanguageCode='EN',ProcessTypeCode='OPSM')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ProcessTypes(LanguageCode='EN',ProcessTypeCode='OPSM')",
+				"type": "CRM_OPPORTUNITY.ProcessType"
+			},
+			"LanguageCode": "EN",
+			"ProcessTypeCode": "OPSM",
+			"Description": "Opportunity Including Sales Methodology"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ProcessTypes(LanguageCode='EN',ProcessTypeCode='ZYYY')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ProcessTypes(LanguageCode='EN',ProcessTypeCode='ZYYY')",
+				"type": "CRM_OPPORTUNITY.ProcessType"
+			},
+			"LanguageCode": "EN",
+			"ProcessTypeCode": "ZYYY",
+			"Description": "Oppt_Fiori_Auto"
+		}]
+	}
+}

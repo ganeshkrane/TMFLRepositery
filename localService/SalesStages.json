@@ -1,0 +1,1541 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "1",
+			"SalesStageDescription": "Information Exchange",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "SRIT"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "1",
+			"SalesStageDescription": "Information Exchange",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "ROPP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "1",
+			"SalesStageDescription": "Information Exchange",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "YPPO"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "1",
+			"SalesStageDescription": "Information Exchange",
+			"SalesStageOrder": "010",
+			"ChanceOfSuccess": "010",
+			"ProcessType": "HTDA"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "1",
+			"SalesStageDescription": "Information Exchange",
+			"SalesStageOrder": "010",
+			"ChanceOfSuccess": "010",
+			"ProcessType": "DRGP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "1",
+			"SalesStageDescription": "Information Exchange",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "ZMKS"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "1",
+			"SalesStageDescription": "Information Exchange",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "OPRE"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "1",
+			"SalesStageDescription": "Information Exchange",
+			"SalesStageOrder": "010",
+			"ChanceOfSuccess": "010",
+			"ProcessType": "HTDP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "1",
+			"SalesStageDescription": "Information Exchange",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "ZOP1"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "1",
+			"SalesStageDescription": "Information Exchange",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "ZOPP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "1",
+			"SalesStageDescription": "Information Exchange",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "OPPT"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "1",
+			"SalesStageDescription": "Information Exchange",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "ASOP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "1",
+			"SalesStageDescription": "Information Exchange",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "OPPO"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "1",
+			"SalesStageDescription": "Information Exchange",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "ZTMO"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "1",
+			"SalesStageDescription": "Information Exchange",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "OPCP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "2",
+			"SalesStageDescription": "Solution Development",
+			"SalesStageOrder": "020",
+			"ChanceOfSuccess": "030",
+			"ProcessType": "HTDP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "2",
+			"SalesStageDescription": "Solution Development",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "OPPT"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "2",
+			"SalesStageDescription": "Solution Development",
+			"SalesStageOrder": "020",
+			"ChanceOfSuccess": "030",
+			"ProcessType": "HTDA"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "2",
+			"SalesStageDescription": "Solution Development",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "OPPO"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "2",
+			"SalesStageDescription": "Solution Development",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "OPRE"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "2",
+			"SalesStageDescription": "Solution Development",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "OPCP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "2",
+			"SalesStageDescription": "Solution Development",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "ROPP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "2",
+			"SalesStageDescription": "Solution Development",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "SRIT"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "2",
+			"SalesStageDescription": "Solution Development",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "YPPO"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "2",
+			"SalesStageDescription": "Solution Development",
+			"SalesStageOrder": "020",
+			"ChanceOfSuccess": "030",
+			"ProcessType": "DRGP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "2",
+			"SalesStageDescription": "Solution Development",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "ZMKS"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "2",
+			"SalesStageDescription": "Solution Development",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "ZOP1"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "2",
+			"SalesStageDescription": "Solution Development",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "ASOP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "2",
+			"SalesStageDescription": "Solution Development",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "ZOPP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "2",
+			"SalesStageDescription": "Solution Development",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "ZTMO"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "3",
+			"SalesStageDescription": "Decision Making",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "ROPP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "3",
+			"SalesStageDescription": "Decision Making",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "SRIT"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "3",
+			"SalesStageDescription": "Decision Making",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "OPRE"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "3",
+			"SalesStageDescription": "Decision Making",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "YPPO"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "3",
+			"SalesStageDescription": "Decision Making",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "OPPT"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "3",
+			"SalesStageDescription": "Decision Making",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "ZMKS"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "3",
+			"SalesStageDescription": "Decision Making",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "ZOP1"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "3",
+			"SalesStageDescription": "Decision Making",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "OPPO"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "3",
+			"SalesStageDescription": "Decision Making",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "ZOPP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "3",
+			"SalesStageDescription": "Decision Making",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "OPCP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "3",
+			"SalesStageDescription": "Decision Making",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "ZTMO"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "3",
+			"SalesStageDescription": "Decision Making",
+			"SalesStageOrder": "030",
+			"ChanceOfSuccess": "050",
+			"ProcessType": "HTDP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "3",
+			"SalesStageDescription": "Decision Making",
+			"SalesStageOrder": "030",
+			"ChanceOfSuccess": "050",
+			"ProcessType": "HTDA"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "3",
+			"SalesStageDescription": "Decision Making",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "ASOP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "3",
+			"SalesStageDescription": "Decision Making",
+			"SalesStageOrder": "030",
+			"ChanceOfSuccess": "050",
+			"ProcessType": "DRGP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "4",
+			"SalesStageDescription": "Final Phase",
+			"SalesStageOrder": "040",
+			"ChanceOfSuccess": "100",
+			"ProcessType": "HTDA"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "4",
+			"SalesStageDescription": "Final Phase",
+			"SalesStageOrder": "040",
+			"ChanceOfSuccess": "100",
+			"ProcessType": "HTDP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "4",
+			"SalesStageDescription": "Final Phase",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "090",
+			"ProcessType": "OPPO"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "4",
+			"SalesStageDescription": "Final Phase",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "090",
+			"ProcessType": "OPPT"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "4",
+			"SalesStageDescription": "Final Phase",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "090",
+			"ProcessType": "OPRE"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "4",
+			"SalesStageDescription": "Final Phase",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "090",
+			"ProcessType": "ROPP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "4",
+			"SalesStageDescription": "Final Phase",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "090",
+			"ProcessType": "SRIT"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "4",
+			"SalesStageDescription": "Final Phase",
+			"SalesStageOrder": "040",
+			"ChanceOfSuccess": "100",
+			"ProcessType": "DRGP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "4",
+			"SalesStageDescription": "Final Phase",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "090",
+			"ProcessType": "OPCP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "4",
+			"SalesStageDescription": "Final Phase",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "090",
+			"ProcessType": "YPPO"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "4",
+			"SalesStageDescription": "Final Phase",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "090",
+			"ProcessType": "ZMKS"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "4",
+			"SalesStageDescription": "Final Phase",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "090",
+			"ProcessType": "ASOP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "4",
+			"SalesStageDescription": "Final Phase",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "090",
+			"ProcessType": "ZOP1"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "4",
+			"SalesStageDescription": "Final Phase",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "090",
+			"ProcessType": "ZOPP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "4",
+			"SalesStageDescription": "Final Phase",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "090",
+			"ProcessType": "ZTMO"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='81')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='81')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "81",
+			"SalesStageDescription": "Identify Opportunity",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "010",
+			"ProcessType": "8002"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='82')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='82')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "82",
+			"SalesStageDescription": "Qualification",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "8002"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='83')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='83')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "83",
+			"SalesStageDescription": "Quotation",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "050",
+			"ProcessType": "8002"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='84')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='84')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "84",
+			"SalesStageDescription": "Decision",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "8002"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='85')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='85')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "85",
+			"SalesStageDescription": "Close",
+			"SalesStageOrder": "005",
+			"ChanceOfSuccess": "100",
+			"ProcessType": "8002"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O01')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O01')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "O01",
+			"SalesStageDescription": "Qualification",
+			"SalesStageOrder": "010",
+			"ChanceOfSuccess": "010",
+			"ProcessType": "DROP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O01')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O01')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "O01",
+			"SalesStageDescription": "Qualification",
+			"SalesStageOrder": "010",
+			"ChanceOfSuccess": "010",
+			"ProcessType": "HTCP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O01')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O01')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "O01",
+			"SalesStageDescription": "Qualification",
+			"SalesStageOrder": "010",
+			"ChanceOfSuccess": "010",
+			"ProcessType": "ORGN"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O01')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O01')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "O01",
+			"SalesStageDescription": "Qualification",
+			"SalesStageOrder": "010",
+			"ChanceOfSuccess": "010",
+			"ProcessType": "HTOR"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O02')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O02')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "O02",
+			"SalesStageDescription": "Business Alignment",
+			"SalesStageOrder": "020",
+			"ChanceOfSuccess": "030",
+			"ProcessType": "HTOR"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O02')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O02')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "O02",
+			"SalesStageDescription": "Business Alignment",
+			"SalesStageOrder": "020",
+			"ChanceOfSuccess": "030",
+			"ProcessType": "DROP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O02')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O02')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "O02",
+			"SalesStageDescription": "Business Alignment",
+			"SalesStageOrder": "020",
+			"ChanceOfSuccess": "030",
+			"ProcessType": "ORGN"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O02')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O02')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "O02",
+			"SalesStageDescription": "Business Alignment",
+			"SalesStageOrder": "020",
+			"ChanceOfSuccess": "030",
+			"ProcessType": "HTCP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O03')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O03')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "O03",
+			"SalesStageDescription": "Design In",
+			"SalesStageOrder": "030",
+			"ChanceOfSuccess": "050",
+			"ProcessType": "HTCP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O03')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O03')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "O03",
+			"SalesStageDescription": "Design In",
+			"SalesStageOrder": "030",
+			"ChanceOfSuccess": "050",
+			"ProcessType": "HTOR"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O03')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O03')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "O03",
+			"SalesStageDescription": "Design In",
+			"SalesStageOrder": "030",
+			"ChanceOfSuccess": "050",
+			"ProcessType": "DROP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O03')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O03')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "O03",
+			"SalesStageDescription": "Design In",
+			"SalesStageOrder": "030",
+			"ChanceOfSuccess": "050",
+			"ProcessType": "ORGN"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O04')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O04')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "O04",
+			"SalesStageDescription": "Design Win",
+			"SalesStageOrder": "040",
+			"ChanceOfSuccess": "100",
+			"ProcessType": "HTCP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O04')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O04')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "O04",
+			"SalesStageDescription": "Design Win",
+			"SalesStageOrder": "040",
+			"ChanceOfSuccess": "100",
+			"ProcessType": "HTOR"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O04')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O04')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "O04",
+			"SalesStageDescription": "Design Win",
+			"SalesStageOrder": "040",
+			"ChanceOfSuccess": "100",
+			"ProcessType": "DROP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O04')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='O04')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "O04",
+			"SalesStageDescription": "Design Win",
+			"SalesStageOrder": "040",
+			"ChanceOfSuccess": "100",
+			"ProcessType": "ORGN"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM1",
+			"SalesStageDescription": "Identify Opportunity",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "010",
+			"ProcessType": "OPBA"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM1",
+			"SalesStageDescription": "Identify Opportunity",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "010",
+			"ProcessType": "CXOP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM1",
+			"SalesStageDescription": "Identify Opportunity",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "010",
+			"ProcessType": "OPFS"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM1",
+			"SalesStageDescription": "Identify Opportunity",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "010",
+			"ProcessType": "OPSM"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM2",
+			"SalesStageDescription": "Qualification",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "OPFS"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM2",
+			"SalesStageDescription": "Qualification",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "OPBA"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM2",
+			"SalesStageDescription": "Qualification",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "OPSM"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM2",
+			"SalesStageDescription": "Qualification",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "CXOP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM3",
+			"SalesStageDescription": "Develop Value Proposition",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "040",
+			"ProcessType": "OPFS"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM3",
+			"SalesStageDescription": "Develop Value Proposition",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "040",
+			"ProcessType": "OPBA"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM3",
+			"SalesStageDescription": "Develop Value Proposition",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "040",
+			"ProcessType": "OPSM"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM3",
+			"SalesStageDescription": "Develop Value Proposition",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "040",
+			"ProcessType": "CXOP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM4",
+			"SalesStageDescription": "Quotation",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "050",
+			"ProcessType": "OPFS"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM4",
+			"SalesStageDescription": "Quotation",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "050",
+			"ProcessType": "OPBA"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM4",
+			"SalesStageDescription": "Quotation",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "050",
+			"ProcessType": "OPSM"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM4",
+			"SalesStageDescription": "Quotation",
+			"SalesStageOrder": "004",
+			"ChanceOfSuccess": "050",
+			"ProcessType": "CXOP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM5')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM5')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM5",
+			"SalesStageDescription": "Decision",
+			"SalesStageOrder": "005",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "OPFS"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM5')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM5')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM5",
+			"SalesStageDescription": "Decision",
+			"SalesStageOrder": "005",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "OPSM"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM5')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM5')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM5",
+			"SalesStageDescription": "Decision",
+			"SalesStageOrder": "005",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "OPBA"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM5')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM5')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM5",
+			"SalesStageDescription": "Decision",
+			"SalesStageOrder": "005",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "CXOP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM6')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM6')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM6",
+			"SalesStageDescription": "Close",
+			"SalesStageOrder": "006",
+			"ChanceOfSuccess": "100",
+			"ProcessType": "OPFS"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM6')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM6')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM6",
+			"SalesStageDescription": "Close",
+			"SalesStageOrder": "006",
+			"ChanceOfSuccess": "100",
+			"ProcessType": "OPSM"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM6')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM6')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM6",
+			"SalesStageDescription": "Close",
+			"SalesStageOrder": "006",
+			"ChanceOfSuccess": "100",
+			"ProcessType": "OPBA"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM6')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SM6')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SM6",
+			"SalesStageDescription": "Close",
+			"SalesStageOrder": "006",
+			"ChanceOfSuccess": "100",
+			"ProcessType": "CXOP"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU1",
+			"SalesStageDescription": "Qualify Prospect",
+			"SalesStageOrder": "010",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "ZO24"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU1",
+			"SalesStageDescription": "Qualify Prospect",
+			"SalesStageOrder": "010",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "XO01"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU1",
+			"SalesStageDescription": "Qualify Prospect",
+			"SalesStageOrder": "010",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "OISU"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU2",
+			"SalesStageDescription": "Specify Requirements",
+			"SalesStageOrder": "020",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "ZO24"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU2",
+			"SalesStageDescription": "Specify Requirements",
+			"SalesStageOrder": "020",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "XO01"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU2",
+			"SalesStageDescription": "Specify Requirements",
+			"SalesStageOrder": "020",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "OISU"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU3",
+			"SalesStageDescription": "Develop Solution",
+			"SalesStageOrder": "030",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "OISU"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU3",
+			"SalesStageDescription": "Develop Solution",
+			"SalesStageOrder": "030",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "XO01"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU3",
+			"SalesStageDescription": "Develop Solution",
+			"SalesStageOrder": "030",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "ZO24"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU4",
+			"SalesStageDescription": "Create Offer",
+			"SalesStageOrder": "040",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "XO01"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU4",
+			"SalesStageDescription": "Create Offer",
+			"SalesStageOrder": "040",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "ZO24"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU4')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU4')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU4",
+			"SalesStageDescription": "Create Offer",
+			"SalesStageOrder": "040",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "OISU"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU5')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU5')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU5",
+			"SalesStageDescription": "Quotation Presentation",
+			"SalesStageOrder": "050",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "XO01"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU5')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU5')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU5",
+			"SalesStageDescription": "Quotation Presentation",
+			"SalesStageOrder": "050",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "ZO24"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU5')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU5')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU5",
+			"SalesStageDescription": "Quotation Presentation",
+			"SalesStageOrder": "050",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "OISU"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU6')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU6')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU6",
+			"SalesStageDescription": "Draw Up Contract",
+			"SalesStageOrder": "060",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "XO01"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU6')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU6')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU6",
+			"SalesStageDescription": "Draw Up Contract",
+			"SalesStageOrder": "060",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "ZO24"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU6')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='SU6')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "SU6",
+			"SalesStageDescription": "Draw Up Contract",
+			"SalesStageOrder": "060",
+			"ChanceOfSuccess": "000",
+			"ProcessType": "OISU"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='ZM1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='ZM1')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "ZM1",
+			"SalesStageDescription": "Identify Opportunity",
+			"SalesStageOrder": "001",
+			"ChanceOfSuccess": "010",
+			"ProcessType": "ZOPT"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='ZM2')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='ZM2')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "ZM2",
+			"SalesStageDescription": "Qualification",
+			"SalesStageOrder": "002",
+			"ChanceOfSuccess": "020",
+			"ProcessType": "ZOPT"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='ZM3')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='ZM3')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "ZM3",
+			"SalesStageDescription": "Develop Value Proposition",
+			"SalesStageOrder": "003",
+			"ChanceOfSuccess": "040",
+			"ProcessType": "ZOPT"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='ZM5')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='ZM5')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "ZM5",
+			"SalesStageDescription": "Decision",
+			"SalesStageOrder": "005",
+			"ChanceOfSuccess": "080",
+			"ProcessType": "ZOPT"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='ZM6')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/SalesStages(LanguageCode='EN',SalesStageCode='ZM6')",
+				"type": "CRM_OPPORTUNITY.SalesStage"
+			},
+			"LanguageCode": "EN",
+			"SalesStageCode": "ZM6",
+			"SalesStageDescription": "Close",
+			"SalesStageOrder": "006",
+			"ChanceOfSuccess": "100",
+			"ProcessType": "ZOPT"
+		}]
+	}
+}

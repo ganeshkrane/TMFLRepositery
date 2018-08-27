@@ -1,0 +1,225 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='400385',accountID='300864')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='400385',accountID='300864')",
+				"type": "CRM_OPPORTUNITY.Contact",
+				"etag": "W/\"'7EADF96CC566A023F63B75DD0FFB4BD3CD79C2A3'\""
+			},
+			"contactID": "400385",
+			"accountID": "300864",
+			"firstName": "Logan",
+			"lastName": "White",
+			"fullName": "Logan White",
+			"searchText": "LOGAN WHITE LOGAN ED SYSTEMS",
+			"birthDate": null,
+			"company": "ED Systems",
+			"function": "Partner Manager for ED Systems",
+			"department": "",
+			"titleID": "",
+			"title": "",
+			"academicTitleID": "",
+			"academicTitle": "",
+			"isMyContact": false,
+			"isMainContact": true,
+			"createdAt": "\/Date(1146662834000)\/",
+			"eTag": "7EADF96CC566A023F63B75DD0FFB4BD3CD79C2A3",
+			"WorkAddress": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='400385',accountID='300864')/WorkAddress"
+				}
+			},
+			"MainAddress": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='400385',accountID='300864')/MainAddress"
+				}
+			},
+			"Photo": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='400385',accountID='300864')/Photo"
+				}
+			},
+			"Notes": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='400385',accountID='300864')/Notes"
+				}
+			},
+			"Attachments": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='400385',accountID='300864')/Attachments"
+				}
+			},
+			"Account": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='400385',accountID='300864')/Account"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='415891',accountID='300864')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='415891',accountID='300864')",
+				"type": "CRM_OPPORTUNITY.Contact",
+				"etag": "W/\"'7FCD69BDD8CF4C459CF9B833D1779CE3E941E2B6'\""
+			},
+			"contactID": "415891",
+			"accountID": "300864",
+			"firstName": "Logan Portal",
+			"lastName": "White",
+			"fullName": "Logan Portal White",
+			"searchText": "LOGAN PORTAL WHITE LOGAN PORTAL ED SYSTEMS",
+			"birthDate": null,
+			"company": "ED Systems",
+			"function": "",
+			"department": "",
+			"titleID": "",
+			"title": "",
+			"academicTitleID": "",
+			"academicTitle": "",
+			"isMyContact": false,
+			"isMainContact": false,
+			"createdAt": "\/Date(1203689814000)\/",
+			"eTag": "7FCD69BDD8CF4C459CF9B833D1779CE3E941E2B6",
+			"WorkAddress": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='415891',accountID='300864')/WorkAddress"
+				}
+			},
+			"MainAddress": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='415891',accountID='300864')/MainAddress"
+				}
+			},
+			"Photo": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='415891',accountID='300864')/Photo"
+				}
+			},
+			"Notes": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='415891',accountID='300864')/Notes"
+				}
+			},
+			"Attachments": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='415891',accountID='300864')/Attachments"
+				}
+			},
+			"Account": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='415891',accountID='300864')/Account"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='400355',accountID='300755')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='400355',accountID='300755')",
+				"type": "CRM_OPPORTUNITY.Contact",
+				"etag": "W/\"'BB1E57CD21D87F725EFF9DD8B760AF118C5FD620'\""
+			},
+			"contactID": "400355",
+			"accountID": "300755",
+			"firstName": "Alys",
+			"lastName": "Williams",
+			"fullName": "Alys Williams",
+			"searchText": "ALYS WILLIAMS ALYS COLOUR PREP, INC.",
+			"birthDate": null,
+			"company": "Colour Prep, Inc.",
+			"function": "",
+			"department": "",
+			"titleID": "0001",
+			"title": "Ms.",
+			"academicTitleID": "",
+			"academicTitle": "",
+			"isMyContact": false,
+			"isMainContact": false,
+			"createdAt": "\/Date(1146662808000)\/",
+			"eTag": "BB1E57CD21D87F725EFF9DD8B760AF118C5FD620",
+			"WorkAddress": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='400355',accountID='300755')/WorkAddress"
+				}
+			},
+			"MainAddress": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='400355',accountID='300755')/MainAddress"
+				}
+			},
+			"Photo": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='400355',accountID='300755')/Photo"
+				}
+			},
+			"Notes": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='400355',accountID='300755')/Notes"
+				}
+			},
+			"Attachments": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='400355',accountID='300755')/Attachments"
+				}
+			},
+			"Account": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='400355',accountID='300755')/Account"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='415489',accountID='415488')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='415489',accountID='415488')",
+				"type": "CRM_OPPORTUNITY.Contact",
+				"etag": "W/\"'71D99CC18D57C1EA9F997CD5C6A41E4EFFA91477'\""
+			},
+			"contactID": "415489",
+			"accountID": "415488",
+			"firstName": "Fred",
+			"lastName": "Basset",
+			"fullName": "Fred Basset",
+			"searchText": "FRED BASSET FRED WILLIAMS ELECTRONICS",
+			"birthDate": null,
+			"company": "Williams Electronics",
+			"function": "",
+			"department": "",
+			"titleID": "0001",
+			"title": "Ms.",
+			"academicTitleID": "",
+			"academicTitle": "",
+			"isMyContact": false,
+			"isMainContact": true,
+			"createdAt": "\/Date(1177011915000)\/",
+			"eTag": "71D99CC18D57C1EA9F997CD5C6A41E4EFFA91477",
+			"WorkAddress": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='415489',accountID='415488')/WorkAddress"
+				}
+			},
+			"MainAddress": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='415489',accountID='415488')/MainAddress"
+				}
+			},
+			"Photo": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='415489',accountID='415488')/Photo"
+				}
+			},
+			"Notes": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='415489',accountID='415488')/Notes"
+				}
+			},
+			"Attachments": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='415489',accountID='415488')/Attachments"
+				}
+			},
+			"Account": {
+				"__deferred": {
+					"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/ContactCollection(contactID='415489',accountID='415488')/Account"
+				}
+			}
+		}]
+	}
+}

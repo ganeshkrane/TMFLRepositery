@@ -1,0 +1,19 @@
+<!--
+
+    Copyright (C) 2009-2017 SAP SE or an SAP affiliate company. All rights reserved.
+
+-->
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<ViewSettingsDialog confirm="handleConfirm">
+		<sortItems>
+			
+			<ViewSettingsItem text="{i18n>CLSDATE}" key="ClosingDate" selected="true"/>
+			<ViewSettingsItem text="{i18n>ACT}" key="ProspectName"/>
+			<ViewSettingsItem text="{i18n>STAT}" key="UserStatusText"/>
+			<ViewSettingsItem text="{i18n>Visit_Date}" key="VISITDATE"/>
+			<ViewSettingsItem text="{i18n>Next_Followup}" key="NEXTFOLLOWUP"/>
+			<ViewSettingsItem text="{i18n>START_DATE}" key="StartDate"/>
+			
+		</sortItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>

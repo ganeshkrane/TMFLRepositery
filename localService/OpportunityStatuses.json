@@ -1,0 +1,41 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityStatuses(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',StatusProfile='CRMOPPOR',UserStatusCode='E0001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityStatuses(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',StatusProfile='CRMOPPOR',UserStatusCode='E0001')",
+				"type": "CRM_OPPORTUNITY.OpportunityStatus"
+			},
+			"HeaderGuid": "3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6",
+			"StatusProfile": "CRMOPPOR",
+			"UserStatusCode": "E0001",
+			"UserStatusText": "Open",
+			"BusinessTransaction": "OPEN",
+			"StatusOrderNumber": "01"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityStatuses(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',StatusProfile='CRMOPPOR',UserStatusCode='E0002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityStatuses(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',StatusProfile='CRMOPPOR',UserStatusCode='E0002')",
+				"type": "CRM_OPPORTUNITY.OpportunityStatus"
+			},
+			"HeaderGuid": "3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6",
+			"StatusProfile": "CRMOPPOR",
+			"UserStatusCode": "E0002",
+			"UserStatusText": "In process",
+			"BusinessTransaction": "PROC",
+			"StatusOrderNumber": "02"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityStatuses(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',StatusProfile='CRMOPPOR',UserStatusCode='E0003')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/OpportunityStatuses(HeaderGuid=guid'3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6',StatusProfile='CRMOPPOR',UserStatusCode='E0003')",
+				"type": "CRM_OPPORTUNITY.OpportunityStatus"
+			},
+			"HeaderGuid": "3440B5B1-73AE-1ED4-ACEA-D90FE42C9FA6",
+			"StatusProfile": "CRMOPPOR",
+			"UserStatusCode": "E0003",
+			"UserStatusText": "Won",
+			"BusinessTransaction": "WINN",
+			"StatusOrderNumber": "03"
+		}]
+	}
+}

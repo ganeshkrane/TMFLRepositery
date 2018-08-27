@@ -1,0 +1,63 @@
+{
+  "mockpreview": {
+    "mockUri": "",
+    "metadataFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "deploy": {
+    "destination": "TMFHANACRD",
+    "name": "ZCRMOPP"
+  },
+  "extensibility": {
+    "controllers": {
+      "Main": "CRM_OPPRTNTY%2fMain.controller.js",
+      "S2": "CRM_OPPRTNTY%2fview%2fS2.controller.js",
+      "S3": "CRM_OPPRTNTY%2fview%2fS3.controller.js",
+      "S4": "CRM_OPPRTNTY%2fview%2fS4.controller.js",
+      "S5": "CRM_OPPRTNTY%2fview%2fS5.controller.js"
+    },
+    "views": {
+      "Main": "CRM_OPPRTNTY%2fMain.view.xml",
+      "S2": "CRM_OPPRTNTY%2fview%2fS2.view.xml",
+      "S2_Offline": "CRM_OPPRTNTY%2fview%2fS2_Offline.view.xml",
+      "S3": "CRM_OPPRTNTY%2fview%2fS3.view.xml",
+      "S4": "CRM_OPPRTNTY%2fview%2fS4.view.xml",
+      "S5": "CRM_OPPRTNTY%2fview%2fS5.view.xml"
+    },
+    "fragments": {
+      "AccountSelectDialog": "CRM_OPPRTNTY%2fview%2fAccountSelectDialog.fragment.xml",
+      "ChangeLog": "CRM_OPPRTNTY%2fview%2fChangeLog.fragment.xml",
+      "ContactF4": "CRM_OPPRTNTY%2fview%2fContactF4.fragment.xml",
+      "CurrencySelectDialog": "CRM_OPPRTNTY%2fview%2fCurrencySelectDialog.fragment.xml",
+      "EditLayout": "CRM_OPPRTNTY%2fview%2fEditLayout.fragment.xml",
+      "EmployeeF4": "CRM_OPPRTNTY%2fview%2fEmployeeF4.fragment.xml",
+      "ParticipantsF4": "CRM_OPPRTNTY%2fview%2fParticipantsF4.fragment.xml",
+      "ParticipantsF4Multiselect": "CRM_OPPRTNTY%2fview%2fParticipantsF4Multiselect.fragment.xml",
+      "ProcessTypeDialog": "CRM_OPPRTNTY%2fview%2fProcessTypeDialog.fragment.xml",
+      "ProductBasketDialog": "CRM_OPPRTNTY%2fview%2fProductBasketDialog.fragment.xml",
+      "SalesAreaDialog": "CRM_OPPRTNTY%2fview%2fSalesAreaDialog.fragment.xml",
+      "ShowErrorMsg": "CRM_OPPRTNTY%2fview%2fShowErrorMsg.fragment.xml",
+      "SortingDialog": "CRM_OPPRTNTY%2fview%2fSortingDialog.fragment.xml",
+      "SortingDialog_Offline": "CRM_OPPRTNTY%2fview%2fSortingDialog_Offline.fragment.xml",
+      "showMaxHit": "CRM_OPPRTNTY%2fview%2fshowMaxHit.fragment.xml"
+    },
+    "type": "abaprep",
+    "shouldLinkComponentToManifest": true,
+    "component": "CRM_OPPRTNTY%2fComponent.js",
+    "configuration": "CRM_OPPRTNTY%2fConfiguration.js",
+    "manifest": "CRM_OPPRTNTY%2fmanifest.json",
+    "versionJsonPath": "CRM_OPPRTNTY%2fversion.json",
+    "minUI5Version": "1.38.3"
+  },
+  "projectType": [
+    "sap.watt.uitools.ide.fiori",
+    "com.watt.common.builder.sapui5clientbuild"
+  ],
+  "build": {
+    "buildRequired": true,
+    "targetFolder": "dist",
+    "lastBuildDateTime": "Thu, 19 Jul 2018 09:28:16 GMT"
+  }
+}

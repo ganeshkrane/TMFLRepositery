@@ -1,0 +1,265 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0001')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPPO",
+			"UserStatusCode": "E0001",
+			"UserStatusText": "Open",
+			"BusinessTransaction": "OPEN",
+			"ProcessType": "OPPO",
+			"InitialStatus": true
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0002')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPPO",
+			"UserStatusCode": "E0002",
+			"UserStatusText": "In Processing at Brand Owner",
+			"BusinessTransaction": "INPR",
+			"ProcessType": "OPPO",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0003')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0003')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPPO",
+			"UserStatusCode": "E0003",
+			"UserStatusText": "Won",
+			"BusinessTransaction": "WINN",
+			"ProcessType": "OPPO",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0004')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0004')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPPO",
+			"UserStatusCode": "E0004",
+			"UserStatusText": "Lost",
+			"BusinessTransaction": "LOST",
+			"ProcessType": "OPPO",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0005')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0005')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPPO",
+			"UserStatusCode": "E0005",
+			"UserStatusText": "Stopped by Customer",
+			"BusinessTransaction": "CSTP",
+			"ProcessType": "OPPO",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0006')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0006')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPPO",
+			"UserStatusCode": "E0006",
+			"UserStatusText": "Stopped by Us",
+			"BusinessTransaction": "SSTP",
+			"ProcessType": "OPPO",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0007')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0007')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPPO",
+			"UserStatusCode": "E0007",
+			"UserStatusText": "Moved",
+			"BusinessTransaction": "SHFT",
+			"ProcessType": "OPPO",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0008')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0008')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPPO",
+			"UserStatusCode": "E0008",
+			"UserStatusText": "Distributed to Channel Partner",
+			"BusinessTransaction": "SPDP",
+			"ProcessType": "OPPO",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0009')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0009')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPPO",
+			"UserStatusCode": "E0009",
+			"UserStatusText": "Declined by Channel Partner",
+			"BusinessTransaction": "SPRE",
+			"ProcessType": "OPPO",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0010')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0010')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPPO",
+			"UserStatusCode": "E0010",
+			"UserStatusText": "In Processing at Partner",
+			"BusinessTransaction": "SPAC",
+			"ProcessType": "OPPO",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0011')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPPO',UserStatusCode='E0011')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPPO",
+			"UserStatusCode": "E0011",
+			"UserStatusText": "Returned to Brand Owner",
+			"BusinessTransaction": "SPRT",
+			"ProcessType": "OPPO",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0001')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0001')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPOR",
+			"UserStatusCode": "E0001",
+			"UserStatusText": "Open",
+			"BusinessTransaction": "OPEN",
+			"ProcessType": "OPSM",
+			"InitialStatus": true
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0002')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0002')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPOR",
+			"UserStatusCode": "E0002",
+			"UserStatusText": "In process",
+			"BusinessTransaction": "INPR",
+			"ProcessType": "OPSM",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0003')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0003')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPOR",
+			"UserStatusCode": "E0003",
+			"UserStatusText": "Won",
+			"BusinessTransaction": "WINN",
+			"ProcessType": "OPSM",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0004')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0004')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPOR",
+			"UserStatusCode": "E0004",
+			"UserStatusText": "Lost",
+			"BusinessTransaction": "LOST",
+			"ProcessType": "OPSM",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0007')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0007')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPOR",
+			"UserStatusCode": "E0007",
+			"UserStatusText": "Stopped by Customer",
+			"BusinessTransaction": "CSTP",
+			"ProcessType": "OPSM",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0008')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0008')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPOR",
+			"UserStatusCode": "E0008",
+			"UserStatusText": "Stopped by Us",
+			"BusinessTransaction": "SSTP",
+			"ProcessType": "OPSM",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0009')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0009')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPOR",
+			"UserStatusCode": "E0009",
+			"UserStatusText": "Moved",
+			"BusinessTransaction": "SHFT",
+			"ProcessType": "OPSM",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0010')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0010')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPOR",
+			"UserStatusCode": "E0010",
+			"UserStatusText": "Jerry test",
+			"BusinessTransaction": "OPEN",
+			"ProcessType": "OPSM",
+			"InitialStatus": false
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0011')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/UserStatuses(LanguageCode='EN',StatusProfile='CRMOPPOR',UserStatusCode='E0011')",
+				"type": "CRM_OPPORTUNITY.UserStatus"
+			},
+			"LanguageCode": "EN",
+			"StatusProfile": "CRMOPPOR",
+			"UserStatusCode": "E0011",
+			"UserStatusText": "E0011",
+			"BusinessTransaction": "FINI",
+			"ProcessType": "OPSM",
+			"InitialStatus": false
+		}]
+	}
+}

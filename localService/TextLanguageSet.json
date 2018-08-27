@@ -1,0 +1,392 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('SR')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('SR')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "SR",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Serbian"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('ZH')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('ZH')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "ZH",
+			"DefaultLanguage": true,
+			"TextLanguageDescription": "Chinese"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('TH')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('TH')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "TH",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Thai"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('KO')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('KO')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "KO",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Korean"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('RO')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('RO')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "RO",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Romanian"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('SL')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('SL')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "SL",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Slovenian"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('HR')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('HR')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "HR",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Croatian"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('MS')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('MS')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "MS",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Malay"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('UK')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('UK')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "UK",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Ukrainian"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('ET')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('ET')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "ET",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Estonian"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('AR')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('AR')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "AR",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Arabic"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('HE')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('HE')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "HE",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Hebrew"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('CS')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('CS')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "CS",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Czech"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('DE')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('DE')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "DE",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "German"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('EN')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('EN')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "EN",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "English"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('FR')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('FR')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "FR",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "French"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('EL')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('EL')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "EL",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Greek"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('HU')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('HU')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "HU",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Hungarian"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('IT')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('IT')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "IT",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Italian"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('JA')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('JA')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "JA",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Japanese"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('DA')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('DA')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "DA",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Danish"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('PL')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('PL')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "PL",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Polish"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('ZF')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('ZF')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "ZF",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Chinese trad."
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('NL')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('NL')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "NL",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Dutch"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('NO')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('NO')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "NO",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Norwegian"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('PT')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('PT')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "PT",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Portuguese"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('SK')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('SK')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "SK",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Slovak"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('RU')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('RU')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "RU",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Russian"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('ES')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('ES')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "ES",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Spanish"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('TR')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('TR')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "TR",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Turkish"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('FI')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('FI')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "FI",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Finnish"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('SV')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('SV')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "SV",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Swedish"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('BG')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('BG')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "BG",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Bulgarian"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('LT')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('LT')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "LT",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Lithuanian"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('LV')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('LV')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "LV",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Latvian"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('Z1')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('Z1')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "Z1",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Customer reserve"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('AF')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('AF')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "AF",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Afrikaans"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('IS')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('IS')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "IS",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Icelandic"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('CA')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('CA')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "CA",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Catalan"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('SH')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('SH')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "SH",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Serbian (Latin)"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('ID')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('ID')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "ID",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Indonesian"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('1Q')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('1Q')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "1Q",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Technical code 1"
+		}, {
+			"__metadata": {
+				"id": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('2Q')",
+				"uri": "/sap/opu/odata/sap/CRM_OPPORTUNITY/TextLanguageSet('2Q')",
+				"type": "CRM_OPPORTUNITY.TextLanguage"
+			},
+			"TextLanguageID": "2Q",
+			"DefaultLanguage": false,
+			"TextLanguageDescription": "Technical code 2"
+		}]
+	}
+}
